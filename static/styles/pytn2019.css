@@ -1,0 +1,63 @@
+.debug {
+  border: 1px solid #fff;
+}
+
+html { background: #ffffff; color: #333; }
+
+body {
+  font: normal 1em/1.5rem "Rubik", Helvetica, Arial, sans-serif;
+}
+
+.header {
+  background: #6a5b7f;
+  color: #fff;
+  border-bottom: 1px solid #333;
+  padding: 0.75em 0;
+}
+
+.title {
+  padding-top: 0.15em;
+}
+
+.nav {
+  margin: 0.75em 0;
+}
+
+.nav a {
+  color: #eee;
+}
+
+.nav a:hover, .nav a:focus {
+  color: #1f1b26;
+}
+
+.hero {
+  width: 100vw;
+  height: 50vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #eee;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("../img/hero.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.hero-registration h2 {
+  font-size: 4.5em;
+  font-weight: 700;
+}
+
+.hero-registration h3 {
+  font-size: 2em;
+}
+
+.hero-registration h4 {
+  font-size: 2em;
+  font-style: italic;
+  margin: 1.5em;
+}
+
