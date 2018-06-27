@@ -8,11 +8,22 @@ body {
   font: normal 1em/1.5rem "Rubik", Helvetica, Arial, sans-serif;
 }
 
-.header {
+.header, .footer {
   background: #6a5b7f;
-  color: #fff;
-  border-bottom: 1px solid #333;
+  color: #eee;
   padding: 0.75em 0;
+}
+
+.header {
+  border-bottom: 1px solid #333;
+}
+
+.footer {
+  border-top: 1px solid #333;
+}
+
+.footer p {
+  margin: 0;
 }
 
 .title {
