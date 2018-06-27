@@ -36,10 +36,11 @@ body {
 
 .nav a {
   color: #eee;
+  font-weight: bold;
 }
 
 .nav a:hover, .nav a:focus {
-  color: #1f1b26;
+  color: #342d3f;
 }
 
 .hero {
