@@ -1,3 +1,7 @@
+### Project ###
+.idea
+*.iml
+
 ### Jekyll ###
 _site
 .sass-cache
