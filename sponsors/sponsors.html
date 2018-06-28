@@ -1,0 +1,29 @@
+---
+title: Sponsors
+layout: base
+body_class: sponsors
+permalink: sponsors
+---
+
+<h2>Thank you to our Sponsors!</h2>
+
+<p><em>We cannot overstate our appreciation for all the companies that help make PyTennessee possible.
+If you'd like to be a sponsor and help support PyTennessee 2019, please contact us at <a href="mailto:sponsorships@pytennessee.org">mailto:sponsorships@pytennessee.org</a>!</em></p>
+
+{% assign tiers = site.sponsors | tiered_sponsors: site.data.event.sponsor_tiers %}
+{% for tier in tiers %}
+  {% assign sponsors = tier[1] %}
+  <h3 class="sponsor-tier-name">{{ tier[0] | title_case }} {{ sponsors | size | pluralize: "Sponsor" }}</h3>
+  
+  <ul class="sponsor-list row justify-content-center">
+  {% for sponsor in sponsors %}
+    <li class="sponsor-list-item col-4">
+      <h4 class="sponsor-list-item-title">{{ sponsor.name }}</h4>
+      <p><a href="{{ sponsor.site_url }}">
+        <img class="sponsor-list-item-logo" src="{{ site.baseurl }}/static/img/sponsors/{{ sponsor.logo }}" alt="{{ sponsor.name }} logo">
+      </a></p>
+      <p>{{ sponsor.content }}</p>
+    </li>
+  {% endfor %}
+  </ul>
+{% endfor %}

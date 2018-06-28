@@ -12,7 +12,6 @@
   </head>
   <body class="{{ page.body_class }}">
     <div class="header">
-      <!-- Logo/header -->
       <h1 class="title">
         <a href="/">
           <img class="logo" src="{{ site.baseurl }}/static/img/logo-horizontal.png" alt="{{ site.title }}">
@@ -20,16 +19,35 @@
       </h1>
 
       <ul class="nav justify-content-end">
-        <!-- Navigation -->
         <li class="nav-item">
           <a class="nav-link" href="#">About</a>
         </li>
+        {% if site.visible.sponsors %}
         <li class="nav-item dropdown">
-          <a class="nav-link" href="#">Sponsors</a>
+          <a id="sponsors-dropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Sponsors</a>
+          <div class="nav-dropdown dropdown-menu" aria-labelledby="sponsors-dropdown">
+            <a class="dropdown-item" href="{% link sponsors/sponsors.html %}">Our Sponsors</a>
+            <a class="dropdown-item" href="{% link sponsors/prospectus.md %}">Sponsorship Prospectus</a>
+          </div>
         </li>
+        {% endif %}
+        {% if site.visible.speaking %}
         <li class="nav-item dropdown">
-          <a class="nav-link" href="#">Speaking</a>
+          <a id="speaking-toggle" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Speaking</a>
+          <div class="nav-dropdown dropdown-menu" aria-labelledby="speaking-dropdown">
+            <a class="dropdown-item" href="#">Call for Proposals</a>
+          </div>
         </li>
+        {% endif %}
+        {% if site.visible.speakers %}
+        <li class="nav-item dropdown">
+          <a id="speakers-toggle" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Schedule</a>
+          <div class="nav-dropdown dropdown-menu" aria-labelledby="speakers-dropdown">
+            <a class="dropdown-item" href="#">Speaker List</a>
+            <a class="dropdown-item" href="#">Conference Schedule</a>
+          </div>
+        </li>
+        {% endif %}
         <li class="nav-item dropdown">
           <a class="nav-link" href="#">Info</a>
         </li>
@@ -38,7 +56,6 @@
         </li>
       </ul>
     </div>
-
 
     {% if page.body_class == 'home' %}
     <div class="hero">
@@ -60,7 +77,7 @@
       </div>
     </div>
 
-    <div class="footer row">
+    <div class="footer">
       <div class="col text-center">
         <p>Conference image by <a href="https://novasnaps.wixsite.com/novaphotography">Arwen Sweet</a>, used with permisison.</p>
         <p>Questions? Comments? Please contact <a href="mailto:organizers@pytennessee.org">organizers@pytennessee.org</a></p>

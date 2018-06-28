@@ -9,8 +9,18 @@ timezone: America/Chicago
 
 permalink: pretty
 
+collections:
+  sponsors:
+    output: false
+
 exclude:
-    - Gemfile
-    - Gemfile.lock
-    - pytn-2019.iml
-    - README.md
+  - Gemfile
+  - Gemfile.lock
+  - pytn-2019.iml
+  - README.md
+
+visible:
+  sponsors: true
+  speaking: false
+  speakers: false
+
