@@ -8,3 +8,9 @@ twitter_username: pytennessee
 timezone: America/Chicago
 
 permalink: pretty
+
+exclude:
+    - Gemfile
+    - Gemfile.lock
+    - pytn-2019.iml
+    - README.md
