@@ -11,56 +11,63 @@
     <title>{{ site.title }} - {{ page.title }}</title>
   </head>
   <body class="{{ page.body_class }}">
-    <div class="container-fluid">
-      <div class="header row">
-        <div class="col">
+    <div class="header">
+      <!-- Logo/header -->
+      <h1 class="title">
+        <a href="/">
+          <img class="logo" src="{{ site.baseurl }}/static/img/logo-horizontal.png" alt="{{ site.title }}">
+        </a>
+      </h1>
 
-          <!-- Logo/header -->
-          <h1 class="title">
-            <a href="/">
-              <img class="logo" src="{{ site.baseurl }}/static/img/logo-horizontal.png" alt="{{ site.title }}">
-            </a>
-          </h1>
-        </div>
+      <ul class="nav justify-content-end">
+        <!-- Navigation -->
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link" href="#">Sponsors</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link" href="#">Speaking</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link" href="#">Info</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link btn btn-outline-light" href="#">Register</a>
+        </li>
+      </ul>
+    </div>
 
-        <div class="col">
-          <ul class="nav justify-content-end">
-            <!-- Navigation -->
-            <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link" href="#">Sponsors</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link" href="#">Speaking</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link" href="#">Info</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link btn btn-outline-light" href="#">Register</a>
-            </li>
-          </ul>
+
+    {% if page.body_class == 'home' %}
+    <!-- Hero -->
+    <div class="hero">
+      <div class="hero-registration">
+        <h2>PyTennessee is back!</h2>
+        <div class="hero-date-info">
+          <h3>February 9-10, 2019 in Nashville, TN</h3>
+          <h4>Come for the hot chicken, stay for the community.</h4>
         </div>
       </div>
+    </div>
+    {% endif %}
 
+    <div class="container">
       <div class="row">
         <div class="col">
           {{ content }}
         </diV>
       </div>
-
-      <div class="footer row">
-        <div class="col text-center">
-          <p>PyTennessee is lovingly organized in Nashville, TN.</p>
-          <p>Questions? Comments? Please contact <a href="mailto:organizers@pytennessee.org">organizers@pytennessee.org</a></p>
-          <p>Help us improve the site by <a href="https://www.github.com/pytennessee/pytn-2019">opening a pull request.</a></p>
-        </div>
-      </div>
     </div>
 
-
+    <div class="footer row">
+      <div class="col text-center">
+        <p>Conference image by <a href="https://novasnaps.wixsite.com/novaphotography">Arwen Sweet</a>, used with permisison.</p>
+        <p>Questions? Comments? Please contact <a href="mailto:organizers@pytennessee.org">organizers@pytennessee.org</a></p>
+        <p>Help us improve the site by <a href="https://www.github.com/pytennessee/pytn-2019">opening a pull request.</a></p>
+      </div>
+    </div>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
