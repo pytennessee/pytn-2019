@@ -1,32 +1,59 @@
 ---
-layout: base
+layout: homepage
 body_class: home
 title: Home
 ---
 
-<div class="row home-content">
-  <div class="col-7 home-sponsors">
-  {% if site.visible.sponsors %}
-    <h3>Our sponsors</h3>
-    {% assign tiers = site.sponsors | tiered_sponsors: site.data.event.sponsor_tiers %}
-    <div class="row">
-    {% for tier in tiers %}
-      {% assign sponsors = tier[1] %}
-      {% for sponsor in sponsors %}
-      <div class="col-6"><img class="w-100 home-sponsor-logo" src="{{ site.baseurl }}/static/img/sponsors/{{ sponsor.logo }}" alt="{{ sponsor.name }}"></div>
-      {% endfor %}
-    {% endfor %}
-    </div>
-  {% endif %}
-  </div>
-
-  <div class="col home-announcements">
-    <h3>Announcements</h3>
-    <div class="home-announcement">
-      <h4>2019 dates and location!</h4>
-      <p>We officially have dates and a location for 2019!
-      PyTennessee 2019 will be held on February 9-10, 2019, and just like in years past, we'll again be at the Nashville School of Law.</p>
+<div class="hero">
+  <div class="hero-registration">
+    <h2>PyTennessee is back!</h2>
+    <div class="hero-date-info">
+      <h3>February 9-10, 2019 in Nashville, TN</h3>
+      <h4>Come for the hot chicken, stay for the community.</h4>
     </div>
   </div>
 </div>
 
+<div class="container">
+  <div class="row home-content">
+    <div class="col-7 home-sponsors">
+    {% if site.visible.sponsors %}
+      <h3>Our sponsors</h3>
+      {% assign tiers = site.sponsors | tiered_sponsors: site.data.event.sponsor_tiers %}
+      <div class="row">
+      {% for tier in tiers %}
+        {% assign sponsors = tier[1] %}
+        {% for sponsor in sponsors %}
+        <div class="col-6"><img class="w-100 home-sponsor-logo" src="{{ site.baseurl }}/static/img/sponsors/{{ sponsor.logo }}" alt="{{ sponsor.name }}"></div>
+        {% endfor %}
+      {% endfor %}
+      </div>
+    {% endif %}
+    </div>
+
+    <div class="col home-announcements">
+      <h3>Announcements</h3>
+      <div class="home-announcement">
+        <h4>2019 dates and location!</h4>
+        <p>We officially have dates and a location for 2019!
+        PyTennessee 2019 will be held on February 9-10, 2019, and just like in years past, we'll again be at the Nashville School of Law.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="about-pytn">
+  <div class="container">
+    <div class="row">
+      <div class="col-2">
+        <img class="d-block w-100" src="{{ site.baseurl }}/static/img/logo.png">
+      </div>
+
+      <div class="col">
+        <h3>About PyTennessee 2019</h3>
+        <p>PyTennessee is a yearly regional Python conference held every February in Nashville, TN. PyTennessee 2019 will be our 6th year, and like every year before it, promises to be our best yet! PyTN will feature 3 speaking tracks (covering beginner-to-advanced Python and Python-adjacent topics), 1 tutorial track, and an always-excellent hallway track. PyTennessee provides breakfast and lunch both days (and provides meal alternatives to suit as many dietary restrictions as possible), puts on a Game Night/After Party on Saturday, and provides programming education through our Young Coders program. There's a bit of something for everyone at PyTennessee 2019!</p>
+        <p>PyTennessee is a nonprofit event facilitated by TechFed Nashville, a Tennessee nonprofit organization whose mission is to support and grow the grassroots tech talent in Middle Tennessee through educational events and groups. TechFed provides financial stewardship, risk management and volunteer leadership development for Nashville-area technology events.</p>
+      </div>
+    </div>
+  </div>
+</div>
