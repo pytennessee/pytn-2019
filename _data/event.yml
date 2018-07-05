@@ -8,3 +8,24 @@ sponsor_tiers:
   - nudge nudgers
   - cheese shop
   - visitors
+
+venue:
+  name: Nashville School of Law
+  address:
+    - 4013 Armory Oaks Drive
+    - Nashville, TN 37204
+  description: >
+    The School of Law is located near the Hundred Oaks shopping center in the
+    Berry Hill neighborhood of Nashville. It's easily reachable from Highway 65, which
+    runs through downtown Nashville.
+
+  url: http://nsl.law/
+  map: <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3223.5901293656257!2d-86.76251028426483!3d36.103478180097966!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8864659617bb96b9%3A0xa186d8f02629710!2sNashville+School+Of+Law!5e0!3m2!1sen!2sus!4v1530786902853" width="600" height="450" frameborder="0" style="border:1px solid darkgray" allowfullscreen></iframe>
+
+  rooms:
+    - Main Auditorium
+    - Room 100
+    - Room 200
+    - Room 300
+
+  quiet_rooms: true

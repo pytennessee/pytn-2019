@@ -138,3 +138,9 @@ body {
 .prospectus h3 {
   margin-top: 1.5em;
 }
+
+/*--[ Venue Page ]-----*/
+.venue ul {
+  list-style-type: none;
+  padding-left: 0;
+}
