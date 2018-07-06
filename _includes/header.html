@@ -6,8 +6,13 @@
   </h1>
 
   <ul class="nav justify-content-end">
-    <li class="nav-item">
-      <a class="nav-link" href="#">About</a>
+    <li class="nav-item dropdown">
+      <a id="about-toggle" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About</a>
+      <div class="nav-dropdown dropdown-menu" aria-labelledby="sponsors-dropdown">
+        <a class="dropdown-item" href="{% link about/index.md %}">About PyTennessee</a>
+        <a class="dropdown-item" href="{% link about/diversity.md %}">Diversity</a>
+        <a class="dropdown-item" href="{% link about/staff-information.md %}">Staff Information</a>
+      </div>
     </li>
     {% if site.visible.sponsors %}
     <li class="nav-item dropdown">
