@@ -71,7 +71,7 @@ body {
   margin-top: 0;
 }
 
-.hero {
+.home .hero {
   align-items: center;
   background-attachment: fixed;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("../img/hero.jpg");
@@ -87,16 +87,16 @@ body {
   width: 100%;
 }
 
-.hero-registration h2 {
+.home .hero-content h2 {
   font-size: 4.5em;
   font-weight: 700;
 }
 
-.hero-registration h3 {
+.home .hero-content h3 {
   font-size: 2em;
 }
 
-.hero-registration h4 {
+.home .hero-content h4 {
   font-size: 2em;
   font-style: italic;
   margin: 1.5em;
