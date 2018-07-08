@@ -33,11 +33,7 @@ Developers are more than the single language they write in, and PyTennessee atte
 ## About Young Coders
 
 The Young Coders program is one of the aspects of PyTennessee that we're the most proud of.
-Young Coders is a day-long programming education program for approximately 10 childen ages 13-17 who are interested in learning how to program.
-PyTennessee provides each Young Coder with a computer to use during the day that they get to keep when the program is finished.
-As you might have guessed, the program covers the basics of programming using Python as the teaching language.
-Breakfast, lunch, and snacks throughout the day are provided to the attendees of the Young Coders program.
-Tickets to the Young Coders program are free, first-come-first-serve, and unfortunately limited.
+To learn more about it, please take a look at the [Young Coders]({% link info/young-coders.md %}) info page.
 
 
 ## About the Staff

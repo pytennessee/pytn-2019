@@ -139,13 +139,23 @@ body {
   width: 100%;
 }
 
+
 /*--[ Prospectus Page ]-----*/
 .prospectus h3 {
   margin-top: 1.5em;
 }
 
+
 /*--[ Venue Page ]-----*/
 .venue ul {
   list-style-type: none;
   padding-left: 0;
+}
+
+
+/*--[ Young Coders Page ]-----*/
+.young-coders-hero img {
+  border: 1px solid #666;
+  width: 100%;
+  margin-bottom: 1.5em;
 }
