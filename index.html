@@ -17,7 +17,7 @@ body_class: home
 <div class="container">
   <div class="row home-content">
     <div class="col-7 home-sponsors">
-    {% if site.visible.sponsors %}
+    {% if site.sponsors.size > 0 %}
       <h3>Our sponsors</h3>
       {% assign tiers = site.sponsors | tiered_sponsors: site.data.event.sponsor_tiers %}
       <div class="row">
@@ -28,6 +28,10 @@ body_class: home
         {% endfor %}
       {% endfor %}
       </div>
+    {% else %}
+      <h3>Want to be our first sponsor?</h3>
+      <p>If you think PyTennessee might be a good opportunity to get your company in front a large group of self-motivated software developers, then please take a look at our <a href="{% link sponsors/prospectus.md %}">Sponsorship Prospectus</a>.</p>
+      <p>If PyTennessee <em>is</em> a good match for your company, then please <a href="mailto:sponsorships@pytennessee.org">send us an email</a> and let's get your info on this page!</p>
     {% endif %}
     </div>
 
