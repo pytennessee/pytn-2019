@@ -5,6 +5,10 @@ body_class: about
 permalink: about
 ---
 
+<div class="about-hero"> 
+  <img src="{{ site.baseurl }}/static/img/about-pytn.jpg" alt="Two PyTN 2018 attendees talking shop during while attending the Hallway Track.">
+</div>
+
 ## About PyTennessee 2019
 
 * February 9-10, 2019

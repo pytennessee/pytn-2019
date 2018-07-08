@@ -123,6 +123,14 @@ body {
 }
 
 
+/*--[ About Page ]-----*/
+.about-hero img {
+  border: 1px solid #666;
+  width: 100%;
+  margin-bottom: 1.5em;
+}
+
+
 /*--[ Sponsors Page ]-----*/
 .sponsor-tier-name {
   margin-top: 1.5em;
