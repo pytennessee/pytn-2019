@@ -71,7 +71,7 @@ body {
   margin-top: 0;
 }
 
-.home .hero {
+.home .jumbotron-fluid {
   align-items: center;
   background-attachment: fixed;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("../img/hero.jpg");
@@ -79,27 +79,23 @@ body {
   background-position: center center;
   background-repeat: no-repeat;
   color: #eee;
-  display: flex;
   height: 50vw;
-  justify-content: center;
-  overflow:hidden;
-  text-align: center;
-  width: 100%;
+  display: flex;
 }
 
-.home .hero-content h2 {
+.home .jumbotron-fluid h2 {
   font-size: 4.5em;
   font-weight: 700;
 }
 
-.home .hero-content h3 {
+.home .jumbotron-fluid h3 {
   font-size: 2em;
 }
 
-.home .hero-content h4 {
+.home .jumbotron-fluid h4 {
   font-size: 2em;
   font-style: italic;
-  margin: 1.5em;
+  margin: 1.5em 0;
 }
 
 .home-content {
