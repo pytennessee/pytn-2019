@@ -12,7 +12,7 @@ permalink: young-coders
 ## Young Coders
 
 Young Coders is a day-long programming education program for approximately 10-15 children ages 13-17.
-The best candidates for the Young Coders program are children interested in learning how to program, but who haven't had ()or don't have) the opportunity to get dedicated instruction.
+The best candidates for the Young Coders program are children interested in learning how to program, but who haven't had (or don't have) the opportunity to get dedicated instruction.
 
 PyTennessee understands that computers don't grow on trees and don't want the lack of a computer to be a roadblock to attending Young Coders.
 Therefore, PyTennessee provides each Young Coder with a computer to use during the program that they get to keep when the program is finished.

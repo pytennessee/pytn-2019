@@ -7,7 +7,7 @@ permalink: code-of-conduct
 
 ## Code of Conduct
 
-{{ site.event.short_name }} is a community event intended to provide a safe space for professional networking, education, and collaboration in the developer community.
+{{ site.data.event.short_name }} is a community event intended to provide a safe space for professional networking, education, and collaboration in the developer community.
 
 We value the participation of each member of the Python community and want all attendees to have an enjoyable and fulfilling experience. Accordingly, all attendees are expected to show respect and courtesy to other attendees throughout the conference and at all conference events (whether official or unofficial).
 
