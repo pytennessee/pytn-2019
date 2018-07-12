@@ -7,7 +7,7 @@ permalink: staff
 
 ## Staff Information
 
-This page includes the people responsible for PyTennessee 2019 along with their primary points of contact.
+This page includes the people responsible for {{ site.data.event.short_name }} 2019 along with their primary points of contact.
 This is not an exhaustive list of all the volunteers and individuals who have helped make PyTN 2019 possible.
 
 _We appreciate everyone who has donated their time to PyTN 2019; without you this conference would not be possible._
