@@ -7,21 +7,21 @@ permalink: prospectus
 
 ## PyTennessee 2019 Sponsorship Prospectus
 
-_Thank you for your interest in PyTennessee 2019! Below you'll find some information that will hopefully help make your decision to support PyTN 2019 a littl easier._
+_Thank you for your interest in {{ site.data.event.short_name }} 2019! Below you'll find some information that will hopefully help make your decision to support PyTN 2019 a littl easier._
 
 ### About PyTennessee 2019
 
-PyTennessee is a regional Python conference held in Nashville, TN every year. The 2019 iteration of PyTennessee will be our 6th year, and like every year before it, promises to be the best PyTennessee yet! PyTennessee 2019 will be held February 9-10, 2019 at the Nashville School of Law. As in years past, the conference will feature 3 tracks of talks (covering beginner-to-advanced Python and Python-adjacent topics), 1 tutorial track, and an always-excellent hallway track. In addition to the typical conference talks and tutorials, PyTennessee also provides breakfast and lunch both days (and provides meal alternatives to suit as many dietary restrictions as possible), puts on a Game Night/After Party on Saturday, and provides programming education through our Young Coders program. There will be a bit of something for everyone at PyTennessee 2019!
+{{ site.data.event.short_name }} is a regional Python conference held in Nashville, TN every year. The 2019 iteration of {{ site.data.event.short_name }} will be our 6th year, and like every year before it, promises to be the best {{ site.data.event.short_name }} yet! {{ site.data.event.short_name }} 2019 will be held February 9-10, 2019 at the Nashville School of Law. As in years past, the conference will feature 3 tracks of talks (covering beginner-to-advanced Python and Python-adjacent topics), 1 tutorial track, and an always-excellent hallway track. In addition to the typical conference talks and tutorials, {{ site.data.event.short_name }} also provides breakfast and lunch both days (and provides meal alternatives to suit as many dietary restrictions as possible), puts on a Game Night/After Party on Saturday, and provides programming education through our Young Coders program. There will be a bit of something for everyone at {{ site.data.event.short_name }} 2019!
 
-Additionally, PyTennessee is a nonprofit event facilitated by TechFed Nashville, a Tennessee nonprofit organization whose mission is to support and grow the grassroots tech talent in Middle Tennessee through educational events and groups. TechFed provides financial stewardship, risk management and volunteer leadership development for Nashville-area technology events.
+Additionally, {{ site.data.event.short_name }} is a nonprofit event facilitated by TechFed Nashville, a Tennessee nonprofit organization whose mission is to support and grow the grassroots tech talent in Middle Tennessee through educational events and groups. TechFed provides financial stewardship, risk management and volunteer leadership development for Nashville-area technology events.
 
 ### Expected Audience
 
-PyTennessee 2019 expects approximately 300 attendees, the majority of whom will be professional Python developers or developers interested in learning more about Python. The skill levels among the attendee pool is diverse and ranges from people just learning Python to bona fide experts in the language. Similarly, our attendees cover a wide range of areas of expertise: data scientists/engineers, web developers, Python core developers, systems/framework developers, and more. We expect that most of our attendees will be from the Southeast region, our attendees always include people from all over the US as well international attendees.
+{{ site.data.event.short_name }} 2019 expects approximately 300 attendees, the majority of whom will be professional Python developers or developers interested in learning more about Python. The skill levels among the attendee pool is diverse and ranges from people just learning Python to bona fide experts in the language. Similarly, our attendees cover a wide range of areas of expertise: data scientists/engineers, web developers, Python core developers, systems/framework developers, and more. We expect that most of our attendees will be from the Southeast region, our attendees always include people from all over the US as well international attendees.
 
 ### Young Coders
 
-In addition to the typical conference schedule, PyTennessee also runs a day-long educational program called Young Coders. During the Saturday of the conference, the Young Coders will receive a full-day of instruction from an industry professional who will help get them started with programming in Python. Tickets to the Young Coders program are free and limited in number (this year we are aiming for 15 students). In addition to the instruction, PyTennessee also purchases a computer for each student to use during the program, and when the program is complete, they are able to keep and take the computer home with them. Our Young Coders program is one of the parts of this conference we are most proud of.
+In addition to the typical conference schedule, {{ site.data.event.short_name }} also runs a day-long educational program called Young Coders. During the Saturday of the conference, the Young Coders will receive a full-day of instruction from an industry professional who will help get them started with programming in Python. Tickets to the Young Coders program are free and limited in number (this year we are aiming for 15 students). In addition to the instruction, {{ site.data.event.short_name }} also purchases a computer for each student to use during the program, and when the program is complete, they are able to keep and take the computer home with them. Our Young Coders program is one of the parts of this conference we are most proud of.
 
 _If your company is interested in sponsoring The Young Coders portion of the conference, there is an exclusive sponsorship just for the Young Coders program (see below)._
 
@@ -78,7 +78,7 @@ _Includes everything in the Lumberjacks level, plus:_
 _Includes everything in the Lumberjacks level, plus:_
 
 * “Presented by” credit in all outbound marketing
-* “Presented by” credit on the PyTennessee website
+* “Presented by” credit on the {{ site.data.event.short_name }} website
 * “Presented by” credit on the conference t-shirt
 * “Presented by” credit on the conference program
 * “Presented by” credit on a slide dedicated to your company
@@ -126,16 +126,16 @@ Every attendee gets a conference badge, and if you choose to sponsor the badges,
 
 #### Custom Sponsorship Packages
 
-If you don’t see a sponsorship above that fits your needs, please contact us sponsorships@pytennessee.org and we would love to work with you to find a way for you to get involved with PyTennessee.
+If you don’t see a sponsorship above that fits your needs, please contact us sponsorships@pytennessee.org and we would love to work with you to find a way for you to get involved with {{ site.data.event.short_name }}.
 
 
 #### Community & In-Kind Sponsorships
 
-Not all sponsorship require money. If your group is a member of the Python community, please let us know and we’ll happily add your group’s logo, link, and description to the PyTennessee website as a Visitor level Sponsor.
+Not all sponsorship require money. If your group is a member of the Python community, please let us know and we’ll happily add your group’s logo, link, and description to the {{ site.data.event.short_name }} website as a Visitor level Sponsor.
 
 If your company would like to exchange goods or services for sponsorship instead of money, please contact us at sponsorships@pytennessee.org and let’s figure out a way for your company to be involved.
 
 
 #### Questions
 
-If you have any lingering questions about sponsorships or PyTennessee in general, please don’t hesitate to email us at info@pytennessee.org or sponsorships@pytennessee.org.
+If you have any lingering questions about sponsorships or {{ site.data.event.short_name }} in general, please don’t hesitate to email us at info@pytennessee.org or sponsorships@pytennessee.org.
