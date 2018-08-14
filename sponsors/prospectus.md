@@ -90,14 +90,14 @@ _Includes everything in the Lumberjacks level, plus:_
 
 Even if you’re already sponsoring at a level above, if you’d like to take advantage of any of our other sponsorship opportunities below, you are welcome to add these on to your sponsorship and get even more for your sponsorship money!
 
-#### Lanyards ($500)
+#### ~~Lanyards ($500)~~ -- SOLD OUT
 
-There are only a few items at the conference that every attendee receives, but a lanyard is one of them, and your company's logo would look great on it.
+~~There are only a few items at the conference that every attendee receives, but a lanyard is one of them, and your company's logo would look great on it.~~
 
 
-#### Coffee ($500, Limited to 2)
+#### ~~Coffee ($500, Limited to 2)~~ -- SOLD OUT
 
-Your company’s logo placed by the day’s coffee will let everyone know the coffee they’re drinking was provided by you!
+~~Your company’s logo placed by the day’s coffee will let everyone know the coffee they’re drinking was provided by you!~~
 
 
 #### Conference Badges ($1000)
