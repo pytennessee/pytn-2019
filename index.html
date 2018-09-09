@@ -24,7 +24,7 @@ body_class: home
       {% for tier in tiers %}
         {% assign sponsors = tier[1] %}
         {% for sponsor in sponsors %}
-        <div class="col-6"><img class="w-100 home-sponsor-logo" src="{{ site.baseurl }}/static/img/sponsors/{{ sponsor.logo }}" alt="{{ sponsor.name }}"></div>
+        <div class="col-3"><img class="w-100 home-sponsor-logo" src="{{ site.baseurl }}/static/img/sponsors/{{ sponsor.logo }}" alt="{{ sponsor.name }}"></div>
         {% endfor %}
       {% endfor %}
       </div>

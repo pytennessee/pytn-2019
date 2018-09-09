@@ -17,9 +17,9 @@ If you'd like to be a sponsor and help support PyTennessee 2019, please contact 
   {% assign sponsors = tier[1] %}
   <h3 class="sponsor-tier-name">{{ tier[0] | title_case }} {{ sponsors | size | pluralize: "Sponsor" }}</h3>
   
-  <ul class="sponsor-list row justify-content-center">
+  <ul class="sponsor-list row justify-content-left">
   {% for sponsor in sponsors %}
-    <li class="sponsor-list-item col-4">
+    <li class="sponsor-list-item col-3">
       <h4 class="sponsor-list-item-title">{{ sponsor.name }}</h4>
       <p><a href="{{ sponsor.site_url }}">
         <img class="sponsor-list-item-logo" src="{{ site.baseurl }}/static/img/sponsors/{{ sponsor.logo }}" alt="{{ sponsor.name }} logo">
