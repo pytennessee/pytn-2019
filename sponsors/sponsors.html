@@ -6,32 +6,34 @@ permalink: sponsors
 ---
 
 {% if site.sponsors.size > 0 %}
-<h2>Thank you to our Sponsors!</h2>
+  <h2>Thank you to our Sponsors!</h2>
 
-<p><em>We cannot overstate our appreciation for all the companies that help make PyTennessee possible.
-If you'd like to be a sponsor and help support PyTennessee 2019, please contact us at <a href="mailto:sponsorships@pytennessee.org">sponsorships@pytennessee.org</a>!</em></p>
-{% endif %}
+  <p><em>We cannot overstate our appreciation for all the companies that help make PyTennessee possible.
+  If you'd like to be a sponsor and help support PyTennessee 2019, please contact us at <a href="mailto:sponsorships@pytennessee.org">sponsorships@pytennessee.org</a>!</em></p>
 
-{% assign tiers = site.sponsors | tiered_sponsors: site.data.event.sponsor_tiers %}
-{% for tier in tiers %}
-  {% assign sponsors = tier[1] %}
-  <h3 class="sponsor-tier-name">{{ tier[0] | title_case }} {{ sponsors | size | pluralize: "Sponsor" }}</h3>
-  
-  <ul class="sponsor-list row justify-content-left">
-  {% for sponsor in sponsors %}
-    <li class="sponsor-list-item col-3">
-      <h4 class="sponsor-list-item-title">{{ sponsor.name }}</h4>
-      <p><a href="{{ sponsor.site_url }}">
-        <img class="sponsor-list-item-logo" src="{{ site.baseurl }}/static/img/sponsors/{{ sponsor.logo }}" alt="{{ sponsor.name }} logo">
-      </a></p>
-      <p>{{ sponsor.content }}</p>
-    </li>
+  {% assign tiered_sponsors = site.sponsors | group_by: 'tier' %}
+  {% for tier in site.data.event.sponsor_tiers %}
+    {% assign sponsors = tiered_sponsors | where: 'name', tier %}
+    {% if sponsors.size > 0 %}
+      <h3 class="sponsor-tier-name">{{ tier }}</h3>
+
+      <ul class="sponsor-list row justify-content-left">
+      {% for sponsor in sponsors[0].items %}
+        <li class="sponsor-list-item col-3">
+          <h4 class="sponsor-list-item-title">{{ sponsor.name }}</h4>
+          <p><a href="{{ sponsor.site_url }}">
+            <img class="sponsor-list-item-logo" src="{{ site.baseurl }}/static/img/sponsors/{{ sponsor.logo }}" alt="{{ sponsor.name }} logo">
+          </a></p>
+          <p>{{ sponsor.content }}</p>
+        </li>
+        {% endfor %}
+      </ul>
+    {% endif %}
   {% endfor %}
-  </ul>
 {% else %}
   <h3>Want to be our first sponsor?</h3>
   <p>
     If you think PyTennessee might be a good opportunity to get your company in front a large group of self-motivated software developers, then please take a look at our <a href="{% link sponsors/prospectus.md %}">Sponsorship Prospectus</a>.
     If PyTennessee <em>is</em> a good match for your company, then please <a href="mailto:sponsorships@pytennessee.org">send us an email</a> and let's get your info on this page!
   </p>
-{% endfor %}
+{% endif %}

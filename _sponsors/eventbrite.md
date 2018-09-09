@@ -1,6 +1,6 @@
 ---
 name: Eventbrite
-tier: nudge nudgers
+tier: Nudge Nudgers
 site_url: https://www.eventbrite.com/careers
 logo: eventbrite.png
 ---

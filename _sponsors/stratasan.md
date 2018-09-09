@@ -1,6 +1,6 @@
 ---
 name: Stratasan
-tier: nudge nudgers
+tier: Nudge Nudgers
 site_url: https://stratasan.com/
 logo: stratasan.png
 ---

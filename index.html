@@ -18,14 +18,16 @@ body_class: home
   <div class="row home-content">
     <div class="col-7 home-sponsors">
     {% if site.sponsors.size > 0 %}
-      <h3>Our sponsors</h3>
-      {% assign tiers = site.sponsors | tiered_sponsors: site.data.event.sponsor_tiers %}
-      <div class="row">
-      {% for tier in tiers %}
-        {% assign sponsors = tier[1] %}
-        {% for sponsor in sponsors %}
-        <div class="col-3"><img class="w-100 home-sponsor-logo" src="{{ site.baseurl }}/static/img/sponsors/{{ sponsor.logo }}" alt="{{ sponsor.name }}"></div>
-        {% endfor %}
+      <h3><a href="{% link sponsors/sponsors.html %}">Our sponsors</a></h3>
+      {% assign tiered_sponsors = site.sponsors | group_by: 'tier' %}
+      {% for tier in site.data.event.sponsor_tiers %}
+        {% assign sponsors = tiered_sponsors | where: 'name', tier %}
+        {% if sponsors.size > 0 %}
+        <div class="row">
+          {% for sponsor in sponsors[0].items %}
+          <div class="col-3"><img class="w-100 home-sponsor-logo" src="{{ site.baseurl }}/static/img/sponsors/{{ sponsor.logo }}" alt="{{ sponsor.name }}"></div>
+          {% endfor %}
+        {% endif %}
       {% endfor %}
       </div>
     {% else %}
@@ -57,7 +59,7 @@ body_class: home
         <h3>About PyTennessee 2019</h3>
         <p>PyTennessee is a yearly regional Python conference held every February in Nashville, TN. PyTennessee 2019 will be our 6th year, and like every year before it, promises to be our best yet! There's a bit of something for everyone at PyTennessee 2019, and if you'd like to know more about it, please visit our <a href="{% link about/index.md %}">About page</a>.</p>
         <p>PyTennessee is a nonprofit event facilitated by TechFed Nashville, a Tennessee nonprofit organization whose mission is to support and grow the grassroots tech talent in Middle Tennessee through educational events and groups. TechFed provides financial stewardship, risk management and volunteer leadership development for Nashville-area technology events.</p>
-        <p>PyTennessee is dedicated to a harassment-free conference experience for everyone. Our anti-harassment policy can be found at: <a href="{% link about/code-of-conduct.md %}">{{ site.baseurl }}{% link about/code-of-conduct.md %}</a></p>
+        <p>PyTennessee is dedicated to a harassment-free conference experience for everyone. Our anti-harassment policy can be found at: <a href="{% link about/code-of-conduct.md %}">{{ site.url }}{% link about/code-of-conduct.md %}</a></p>
       </div>
     </div>
   </div>
