@@ -1,1 +1,1 @@
-$('[data-toggle="popover"]').popover();
+
