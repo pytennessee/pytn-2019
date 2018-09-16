@@ -16,18 +16,14 @@ body_class: home
 
 <div class="container">
   <div class="row home-content">
-    <div class="col-7 home-sponsors">
+    <div class="col home-sponsors">
     {% if site.sponsors.size > 0 %}
-      <h3><a href="{% link sponsors/sponsors.html %}">Our sponsors</a></h3>
-      {% assign tiered_sponsors = site.sponsors | group_by: 'tier' %}
-      {% for tier in site.data.event.sponsor_tiers %}
-        {% assign sponsors = tiered_sponsors | where: 'name', tier %}
-        {% if sponsors.size > 0 %}
-        <div class="row">
-          {% for sponsor in sponsors[0].items %}
-          <div class="col-3"><img class="w-100 home-sponsor-logo" src="{{ site.baseurl }}/static/img/sponsors/{{ sponsor.logo }}" alt="{{ sponsor.name }}"></div>
-          {% endfor %}
-        {% endif %}
+      <h3>Our sponsors</h3>
+      <div class="row">
+      {% for sponsor in site.sponsors %}
+        <div class="col-3">
+          <a href="{% link sponsors/sponsors.html %}"><img class="w-100 home-sponsor-logo" src="{{ site.baseurl }}/static/img/sponsors/{{ sponsor.logo }}" alt="{{ sponsor.name }} logo"></a>
+        </div>
       {% endfor %}
       </div>
     {% else %}
