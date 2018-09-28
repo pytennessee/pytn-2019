@@ -22,6 +22,6 @@ exclude:
 
 visible:
   sponsors: true
-  speaking: false
+  speaking: true
   speakers: false
 
