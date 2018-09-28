@@ -20,7 +20,7 @@ permalink: sponsors
       <ul class="sponsor-list row justify-content-left">
       {% for sponsor in sponsors[0].items %}
         <li class="sponsor-list-item col-3">
-          <h4 class="sponsor-list-item-title">{{ sponsor.name }}</h4>
+          <h4 class="sponsor-list-item-title"><a href="{{ sponsor.site_url }}">{{ sponsor.name }}</a></h4>
           <p><a href="{{ sponsor.site_url }}">
             <img class="sponsor-list-item-logo" src="{{ site.baseurl }}/static/img/sponsors/{{ sponsor.logo }}" alt="{{ sponsor.name }} logo">
           </a></p>
