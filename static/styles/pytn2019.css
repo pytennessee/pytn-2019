@@ -177,3 +177,16 @@ h1, h2, h3, h4, h5, h6,
   width: 100%;
   margin-bottom: 1.5rem;
 }
+
+
+/*--[ Speaking Resources Pages ]-----*/
+.speaking-hero img {
+  border: 1px solid #666;
+  width: 100%;
+  margin-bottom: 1.5rem;
+}
+
+.submit-your-talk {
+  display: inline-block;
+  margin: 1.5rem 0;
+}
