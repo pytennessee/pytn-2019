@@ -8,22 +8,27 @@ body {
   font: normal 1em/1.5rem "Rubik", Helvetica, Arial, sans-serif;
 }
 
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6{
+  margin: 3rem 0 1.5rem;
+}
+
 .header, .footer {
   background: #6a5b7f;
   color: #eee;
-  padding: 0.75em 2em;
+  padding: 0.75rem 2rem;
 }
 
 .header {
   display: flex;
   align-items: center;
   border-bottom: 1px solid #333;
-  margin-bottom: 3em;
+  margin-bottom: 3rem;
 }
 
 .footer {
   border-top: 1px solid #333;
-  margin-top: 3em;
+  margin-top: 3rem;
 }
 
 .footer p {
@@ -35,15 +40,20 @@ body {
   text-decoration: underline;
 }
 
+.footer-title {
+  margin: 0;
+}
+
 .title {
-  padding-top: 0.15em;
+  margin: 0;
+  padding-top: 0.15rem;
   justify-content: flex-start;
   width: 400px;
 }
 
 .nav {
   flex-grow: 1;
-  margin: 0.75em 0;
+  margin: 0.75rem 0;
 }
 
 .nav a {
@@ -84,32 +94,32 @@ body {
 }
 
 .home .jumbotron-fluid h2 {
-  font-size: 4.5em;
+  font-size: 4.5rem;
   font-weight: 700;
 }
 
 .home .jumbotron-fluid h3 {
-  font-size: 2em;
+  font-size: 2rem;
 }
 
 .home .jumbotron-fluid h4 {
-  font-size: 2em;
+  font-size: 2rem;
   font-style: italic;
-  margin: 1.5em 0;
+  margin: 1.5rem 0;
 }
 
 .home-content {
-  padding: 1.5em 0;
+  padding: 1.5rem 0;
 }
 
 .home-announcement {
-  padding: 0 0 1.5em;
+  padding: 0 0 1.5rem;
 }
 
 .about-pytn {
   background: #999;
   color: #eee;
-  padding: 1.5em 0;
+  padding: 1.5rem 0;
   margin: 0;
 }
 
@@ -123,20 +133,24 @@ body {
 .about-hero img {
   border: 1px solid #666;
   width: 100%;
-  margin-bottom: 1.5em;
+  margin-bottom: 1.5rem;
 }
 
 
 /*--[ Sponsors Page ]-----*/
 .sponsor-tier-name {
-  margin-top: 1.5em;
+  margin: 1.5rem 0 0
 }
 
 .sponsor-list {
   list-style: none;
-  margin-bottom: 3em;
-  margin-top: 3em;
+  margin-bottom: 3rem;
+  margin-top: 3rem;
   padding: 0;
+}
+
+.sponsor-list-item-title {
+  margin: 0 0 0.5rem;
 }
 
 .sponsor-list-item-logo {
@@ -146,7 +160,7 @@ body {
 
 /*--[ Prospectus Page ]-----*/
 .prospectus h3 {
-  margin-top: 1.5em;
+  margin-top: 1.5rem;
 }
 
 
@@ -161,5 +175,5 @@ body {
 .young-coders-hero img {
   border: 1px solid #666;
   width: 100%;
-  margin-bottom: 1.5em;
+  margin-bottom: 1.5rem;
 }
