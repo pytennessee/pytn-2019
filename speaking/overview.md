@@ -38,22 +38,22 @@ This year, PyTennessee is using [PaperCall](https://www.papercall.io) to manage 
 PaperCall is a free service for speakers, but you will need an account in order to submit.
 Once you have an account with PaperCall, submitting your talk is as easy as [clicking this link and filling out our CFP form](https://www.papercall.io/pytn2019).
 
-If you have any questions about the proposal process or the CFP form, please [let the organizers knwo](mailto:{{ site.data.event.organizers_email}}).
+If you have any questions about the proposal process or the CFP form, please [let the organizers know](mailto:{{ site.data.event.organizers_email}}).
 
 
 ## Financial Assistance
 
 We don't want expenses to be a discouraging factor for submitting to PyTennessee.
-Once talk selection is over, if your talk has been accepated or selected for standby, you will receive a link to a financial assistance request form.
-The conference will pay for airfaire to get here and lodging for Friday and Saturday nights.
+Once talk selection is over, if your talk has been accepted or selected for standby, you will receive a link to a financial assistance request form.
+The conference will pay for airfare to get here and lodging for Friday and Saturday nights.
 If you need financial assistance above that, there will be a place in the form to let us know.
-Because the financial assistance process doesn't happen until after talk selection, whether you need financial assistance or not does **not** factor into our talk selectin process.
+Because the financial assistance process doesn't happen until after talk selection, whether you need financial assistance or not does **not** factor into our talk selection process.
 
 
 ## Speaker Mentoring
 
 A new program we're trying at PyTennessee this year is offering speaker mentoring/coaching.
-The coaching sessions will initially be available to first-time speakers only, but may be opened up to experienced spekers as well (this will depend on interest from first-time speakers).
+The coaching sessions will initially be available to first-time speakers only, but may be opened up to experienced speakers as well (this will depend on interest from first-time speakers).
 The cost of the sessions will be handled by the conference, and will not cost the speakers anything.
 We'll have more details about the coaching program in the coming months.
 
@@ -62,7 +62,7 @@ We'll have more details about the coaching program in the coming months.
 
 We encourage everyone to submit a talk or a tutorial, regardless of experience level.
 PyTennessee does best when there is a range of experience on display and when that range is reflected in the talks.
-If you're at all intersted in speaking, we hope you submit something to PyTennessee.
+If you're at all interested in speaking, we hope you submit something to PyTennessee.
 
 Take a look below at the various session types available at PyTennessee and figure out which one is right for you!
 
@@ -94,25 +94,25 @@ Like talks, we don't restrict the topics of tutorials in any way, and encourage 
 
 ## Code of Conduct
 
-All speakers at PyTennesee are expected to have read and to abide by our [Code of Conduct]({% link about/code-of-conduct.md %}).
+All speakers at PyTennessee are expected to have read and to abide by our [Code of Conduct]({% link about/code-of-conduct.md %}).
 The content of a talk or tutorial (as well as the content on any slides) should be appropriate for a professional audience that includes people of any different backgrounds.
 Sexual language and imagery are not appropriate, and neither are language or imagery that denigrate or demean people based on race, gender, religion, sexual orientation, physical appearance, disability, or body size.
 
 
-## Special Accomodations
+## Special Accommodations
 
 
 The [PyTennessee venue]({% link info/venue.md %}) is a school, so is reasonably well set up for speakers.
 Each room has a podium in the front of the room with a project above the speaker's head.
 The seating in most rooms is stadium seating.
 Rooms are well set up for speakers to give their talks without amplification, but microphones will be provided in each room in case the speaker would like to use one.
-THe venue provides adapters for most computers:
+The venue provides adapters for most computers:
 
 * USB-C
 * HDMI
 * Mini DisplayPort
 * VGA
 
-If you require an adapter that isn't in the above list, or you need any other special accomodations for your talk, please [let the organizers know](mailto:{{ site.data.event.organizers_email}}).
+If you require an adapter that isn't in the above list, or you need any other special accommodations for your talk, please [let the organizers know](mailto:{{ site.data.event.organizers_email}}).
 
 
