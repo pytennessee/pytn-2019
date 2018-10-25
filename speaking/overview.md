@@ -52,8 +52,8 @@ Because the financial assistance process doesn't happen until after talk selecti
 
 ## Speaker Mentoring
 
-A new program we're trying at PyTennessee this year is offering spekaer mentoring/coahcing.
-The coaching sessions will initially be available to first-time speakers only, but may be opened up to expereinced spekers as well (this will depend on interest from first-time speakers).
+A new program we're trying at PyTennessee this year is offering speaker mentoring/coaching.
+The coaching sessions will initially be available to first-time speakers only, but may be opened up to experienced spekers as well (this will depend on interest from first-time speakers).
 The cost of the sessions will be handled by the conference, and will not cost the speakers anything.
 We'll have more details about the coaching program in the coming months.
 
