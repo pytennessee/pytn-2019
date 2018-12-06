@@ -13,15 +13,19 @@ permalink: pretty
 collections:
   sponsors:
     output: false
+  talks:
+    output: true
 
 exclude:
   - Gemfile
   - Gemfile.lock
   - pytn-2019.iml
   - README.md
+  - scripts
 
 visible:
   sponsors: true
   speaking: true
-  speakers: false
+  speakers: true
+  schedule: false
 
