@@ -190,3 +190,21 @@ h1, h2, h3, h4, h5, h6,
   display: inline-block;
   margin: 1.5rem 0;
 }
+
+
+/*--[ Talk List ]-----*/
+.talk-list .talks,
+.talk-list .tutorials {
+  border-bottom: 1px solid #ccc;
+  list-style-type: none;
+  padding: 1.5rem 0;
+}
+
+.talk-list .talk-title,
+.talk-list .talk-speakers {
+  margin: 0 0 0.5rem;
+}
+
+.talk-list .talk-abstract {
+  margin-top: 1.5rem;
+}

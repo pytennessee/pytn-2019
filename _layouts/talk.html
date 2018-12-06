@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link href="https://fonts.googleapis.com/css?family=Rubik:400,400i,700" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+  <link rel="stylesheet" href="{{ site.baseurl }}/static/styles/pytn2019.css">
+
+  <title>{{ site.title }} - {{ page.title }}</title>
+</head>
+<body class="{{ page.body_class }}">
+{% include header.html %}
+
+<div class="container">
+  <h1 class="talk-title">{{ page.title }}</h1>
+
+  <h2 class="talk-abstract-title">Abstract</h2>
+  <p class="talk-abstract">
+    {{ page.abstract }}
+  </p>
+
+  {{ content }}
+
+  <h2 class="talk-meta-title">About the Talk</h2>
+  <ul>
+    <li><strong>Type</strong>: {{ page.type }}</li>
+    <li><strong>Expected length</strong>: {{ page.expected_length }}</li>
+    <li><strong>Intended audience</strong>: {{ page.intended_audience }}</li>
+  </ul>
+
+  <h2 class="about-the-author-title">About the Author</h2>
+  <p class="about-the-author">
+    {{ page.about }}
+  </p>
+</div>
+
+{% include footer.html %}
+</body>
+</html>
