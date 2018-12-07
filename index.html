@@ -21,7 +21,7 @@ body_class: home
       <h3>Our sponsors</h3>
       <div class="row">
       {% for sponsor in site.sponsors %}
-        <div class="col-3">
+        <div class="col-4">
           <a href="{% link sponsors/sponsors.html %}"><img class="w-100 home-sponsor-logo" src="{{ site.baseurl }}/static/img/sponsors/{{ sponsor.logo }}" alt="{{ sponsor.name }} logo"></a>
         </div>
       {% endfor %}
@@ -35,6 +35,14 @@ body_class: home
 
     <div class="col home-announcements">
       <h3>Announcements</h3>
+      <div class="home-announcement">
+        <h4>We have Keynoters!</h4>
+        <p>We're so excited to announce that our keynote speakers for PyTennessee 2019 are <a href="https://twitter.com/JackieKazil">Jacqueline Kazil</a> and <a href="https://twitter.com/jessejiryudavis">Jesse A. Jiryu Davis</a>!</p>
+      </div>
+      <div class="home-announcement">
+        <h4>CFP is closed!</h4>
+        <p>The CFP is closed and we're working through talk selection. Look for the list of talks to be announced soon!</p>
+      </div>
       <div class="home-announcement">
         <h4>CFP is open!</h4>
         <p>Our Call for Papers is open, and we want to hear you speak at PyTN 2019! <a href="https://www.papercall.io/pytn2019">Submit your talk today!</a> The final day to submit your talk is Oct 31, 2018, so get your talk in while you can!</p>

@@ -6,7 +6,7 @@ permalink: young-coders
 ---
 
 <div class="young-coders-hero"> 
-  <img src="{{ site.baseurl }}/static/img/young-coders.jpg" alt="Our Young Coders Chair, Brad Montgomery, pointing at a slide about standard library functions">
+  <img src="{{ site.baseurl }}/static/img/young-coders.jpg" alt="Three Young Coders attendees helping each other solve a problem">
 </div>
 
 ## Young Coders
