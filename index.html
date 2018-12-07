@@ -21,7 +21,7 @@ body_class: home
       <h3>Our sponsors</h3>
       <div class="row">
       {% for sponsor in site.sponsors %}
-        <div class="col-3">
+        <div class="col-4">
           <a href="{% link sponsors/sponsors.html %}"><img class="w-100 home-sponsor-logo" src="{{ site.baseurl }}/static/img/sponsors/{{ sponsor.logo }}" alt="{{ sponsor.name }} logo"></a>
         </div>
       {% endfor %}
