@@ -1,5 +1,5 @@
 ---
-title: Auth0 JWT authentication with Django
+title: JWT Authentication with Django
 layout: talk
 body_class: talk
 permalink: talks/aut0-jwt-authentication-with-django
