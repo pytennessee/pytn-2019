@@ -16,8 +16,8 @@ If you would like to contact all the organizers, please send an email to [organi
 
 * PyTennessee Chair: [Bill Israel](mailto:chair@pytennessee.org)
 * PyTennessee Co-Chair: Aliya Gifford
-* PyTennessee Sponsorship Chair: [Aliya Gifford](mailto:sponsorships@pytennessee.org)
-* PyTennessee Sponsorship Co-Chair: [Jayme Kolling](mailto:sponsorships@pytennessee.org)
+* PyTennessee Sponsorship Chair: [Jayme Kolling](mailto:sponsorships@pytennessee.org)
+* PyTennessee Sponsorship Co-Chair: [Aliya Gifford](mailto:sponsorships@pytennessee.org)
 * PyTennessee Marketing Chair: [Rainu Ittycheriah](mailto:info@pytennessee.org)
 * PyTennessee Marketing Co-Chair: [Samantha Yeargin](mailto:info@pytennessee.org)
 * PyTennessee Speakers Chair: [Josh Stephens](mailto:speakers@pytennessee.org)
