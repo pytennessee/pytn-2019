@@ -172,6 +172,12 @@ background-image: url("data:image/svg+xml;charset=utf8,<svg viewBox='0 0 30 30' 
   }
 }
 
+@media only screen and (min-device-width : 480px) {
+  .home .jumbotron-fluid {
+    background-attachment: fixed;
+  }
+}
+
 
 /*--[ About Page ]-----*/
 .about-hero img {
