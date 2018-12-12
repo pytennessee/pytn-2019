@@ -71,6 +71,12 @@ h1, h2, h3, h4, h5, h6,
   color: #eee;
 }
 
+#navbar-menu-button {
+  border: 1px solid #eee;
+}
+
+.navbar-toggler-icon {
+background-image: url("data:image/svg+xml;charset=utf8,<svg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'><path stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/></svg>");}
 
 /*--[ Homepage ]-----*/
 .home .header {
@@ -83,7 +89,6 @@ h1, h2, h3, h4, h5, h6,
 
 .home .jumbotron-fluid {
   align-items: center;
-  background-attachment: fixed;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("../img/hero.jpg");
   background-size: cover;
   background-position: center center;
@@ -126,6 +131,45 @@ h1, h2, h3, h4, h5, h6,
 .about-pytn a {
   color: #eee;
   text-decoration: underline;
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  .header {
+    padding: 0.75rem;
+    display: block;
+  }
+
+  .navbar {
+    padding: 0.5rem;
+  }
+
+  .title {
+    width: 200px;
+  }
+
+  .logo {
+     width: 200px;
+  }
+
+  .home .jumbotron-fluid {
+    font-size: 1.5rem;
+    font-weight: 250;
+    align-items: normal;
+    height: 100vw;
+  }
+
+  .home .jumbotron-fluid h2 {
+    font-size: 2.5rem;
+    font-weight: 500;
+  }
+
+  .home .jumbotron-fluid h3, .home .jumbotron-fluid h4 {
+    font-size: 1.5rem;
+  }
+
+  h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    margin: 1rem 0px 1rem;
+  }
 }
 
 
