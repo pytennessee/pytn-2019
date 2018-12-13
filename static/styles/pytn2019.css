@@ -13,6 +13,11 @@ h1, h2, h3, h4, h5, h6,
   margin: 3rem 0 1.5rem;
 }
 
+.btn-xlg {
+  padding: 1rem 3rem;
+  font-size: 1.5rem;
+}
+
 .header, .footer {
   background: #6a5b7f;
   color: #eee;
@@ -106,6 +111,10 @@ h1, h2, h3, h4, h5, h6,
   font-size: 2rem;
   font-style: italic;
   margin: 1.5rem 0;
+}
+
+.hero-register-button {
+  margin: 3rem 0;
 }
 
 .home-content {
