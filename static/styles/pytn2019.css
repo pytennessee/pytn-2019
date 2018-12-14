@@ -145,6 +145,10 @@ background-image: url("data:image/svg+xml;charset=utf8,<svg viewBox='0 0 30 30' 
     padding: 0;
   }
 
+  .home .header .navbar .navbar-brand {
+    padding-bottom: 0;
+  }
+
   .home .header .navbar .nav-link {
     padding: .5rem 1rem;
   }
