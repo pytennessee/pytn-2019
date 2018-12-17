@@ -96,8 +96,8 @@ background-image: url("data:image/svg+xml;charset=utf8,<svg viewBox='0 0 30 30' 
   background-position: center center;
   background-repeat: no-repeat;
   color: #eee;
-  max-height: 50vh;
   display: flex;
+  margin-bottom: 0;
 }
 
 .home .jumbotron-fluid h2 {
