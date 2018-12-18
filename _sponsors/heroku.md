@@ -1,7 +1,7 @@
 ---
 name: Heroku
 tier: Ministry of Silly Walks
-site_url: https://www.heroku.com/
+site_url: https://www.heroku.com/python
 logo: heroku.png
 ---
 
