@@ -134,7 +134,14 @@ background-image: url("data:image/svg+xml;charset=utf8,<svg viewBox='0 0 30 30' 
   text-decoration: underline;
 }
 
-/* desktop */
+/* 992px and above */
+@media (min-width: 992px) {
+  .home .jumbotron-fluid {
+    height: 50vw;
+  }
+}
+
+/* tablet and above */
 @media (min-width: 768px) {
   .home .header .navbar {
     padding: 0;
