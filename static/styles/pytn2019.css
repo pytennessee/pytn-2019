@@ -10,7 +10,7 @@ body {
 
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6{
-  margin: 1rem 0 1rem;
+  margin: 3rem 0 1.5rem;
 }
 
 .header, .footer {
@@ -29,7 +29,6 @@ h1, h2, h3, h4, h5, h6,
 .footer {
   border-top: 1px solid #333;
   margin-top: 3rem;
-  padding: 0.75rem 0.5rem;
 }
 
 .footer p {
@@ -120,11 +119,7 @@ background-image: url("data:image/svg+xml;charset=utf8,<svg viewBox='0 0 30 30' 
 }
 
 .home-announcement {
-  padding: 0 0 0.5rem;
-}
-
-.home-sponsors {
-  margin-bottom: 1rem;
+  padding: 0 0 1.5rem;
 }
 
 .about-pytn {
@@ -152,16 +147,28 @@ background-image: url("data:image/svg+xml;charset=utf8,<svg viewBox='0 0 30 30' 
   .home .header .navbar .nav-link {
     padding: .5rem 1rem;
   }
+}
 
-  .home .jumbotron-fluid {
-    max-height: 60vh;
+/* tablet up to 1199px */
+@media (min-width: 768px) and (max-width: 1199px) {
+  .home-announcement {
+    padding: 0 0 0.5rem;
   }
 }
 
 /* mobile */
 @media (max-width: 767px) {
+  h1, h2, h3, h4, h5, h6,
+  .h1, .h2, .h3, .h4, .h5, .h6{
+    margin: 1rem 0 1rem;
+  }
+
   .header {
     padding: 0.5rem;
+  }
+
+  .footer {
+    padding: 0.75rem 0.5rem;
   }
 
   .navbar {
@@ -189,6 +196,10 @@ background-image: url("data:image/svg+xml;charset=utf8,<svg viewBox='0 0 30 30' 
 
   .home .jumbotron-fluid h3, .home .jumbotron-fluid h4 {
     font-size: 1.5rem;
+  }
+
+  .home-sponsors {
+    margin-bottom: 1rem;
   }
 }
 
