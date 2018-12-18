@@ -91,7 +91,7 @@ background-image: url("data:image/svg+xml;charset=utf8,<svg viewBox='0 0 30 30' 
   align-items: center;
   background-attachment: fixed;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("../img/hero.jpg");
-  background-size: 100% 100%;
+  background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
   color: #eee;
