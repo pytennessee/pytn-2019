@@ -156,6 +156,13 @@ background-image: url("data:image/svg+xml;charset=utf8,<svg viewBox='0 0 30 30' 
   }
 }
 
+/* up to 1199px */
+@media (max-width: 1199px) {
+  .navbar .dropdown + .nav-item .btn {
+    margin-top: .5rem;
+  }
+}
+
 /* mobile */
 @media (max-width: 767px) {
   h1, h2, h3, h4, h5, h6,
