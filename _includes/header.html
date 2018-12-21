@@ -1,59 +1,71 @@
 <div class="header">
-  <h1 class="title">
-    <a href="/">
-      <img class="logo" src="{{ site.baseurl }}/static/img/logo-horizontal.png" alt="{{ site.title }}">
-    </a>
-  </h1>
+  <div class="container-fluid px-0">
+    <nav class="navbar navbar-expand-xl">
 
-  <ul class="nav justify-content-end">
-    <li class="nav-item dropdown">
-      <a id="about-toggle" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About</a>
-      <div class="nav-dropdown dropdown-menu" aria-labelledby="sponsors-dropdown">
-        <a class="dropdown-item" href="{% link about/index.md %}">About PyTennessee</a>
-        <a class="dropdown-item" href="{% link about/code-of-conduct.md %}">Code of Conduct</a>
-        <a class="dropdown-item" href="{% link about/diversity.md %}">Diversity</a>
-        <a class="dropdown-item" href="{% link about/staff-information.md %}">Staff Information</a>
+      <h1 class="navbar-brand title">
+        <a href="/">
+          <img class="logo" src="{{ site.baseurl }}/static/img/logo-horizontal.png" alt="{{ site.title }}">
+        </a>
+      </h1>
+
+      <button id="navbar-menu-button" class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar-menu" aria-controls="navbar-menu" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbar-menu">
+        <ul class="nav justify-content-end navbar-nav mr-auto">
+          <li class="nav-item dropdown">
+            <a id="about-toggle" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About</a>
+            <div class="nav-dropdown dropdown-menu" aria-labelledby="sponsors-dropdown">
+              <a class="dropdown-item" href="{% link about/index.md %}">About PyTennessee</a>
+              <a class="dropdown-item" href="{% link about/code-of-conduct.md %}">Code of Conduct</a>
+              <a class="dropdown-item" href="{% link about/diversity.md %}">Diversity</a>
+              <a class="dropdown-item" href="{% link about/staff-information.md %}">Staff Information</a>
+            </div>
+          </li>
+          {% if site.visible.sponsors %}
+          <li class="nav-item dropdown">
+            <a id="sponsors-dropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Sponsors</a>
+            <div class="nav-dropdown dropdown-menu" aria-labelledby="sponsors-dropdown">
+              <a class="dropdown-item" href="{% link sponsors/sponsors.html %}">Our Sponsors</a>
+              <a class="dropdown-item" href="{% link sponsors/prospectus.md %}">Sponsorship Prospectus</a>
+            </div>
+          </li>
+          {% endif %}
+          {% if site.visible.speaking %}
+          <li class="nav-item dropdown">
+            <a id="speaking-toggle" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Speaking</a>
+            <div class="nav-dropdown dropdown-menu" aria-labelledby="speaking-dropdown">
+              <a class="dropdown-item" href="{% link speaking/overview.md %}">Overview</a>
+              <a class="dropdown-item" href="{% link speaking/proposing-a-talk.md %}">Proposing a Talk</a>
+              <a class="dropdown-item" href="https://www.papercall.io/pytn2019">Submit Your Talk</a>
+            </div>
+          </li>
+          {% endif %}
+          {% if site.visible.speakers %}
+          <li class="nav-item dropdown">
+            <a id="speakers-toggle" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Schedule</a>
+            <div class="nav-dropdown dropdown-menu" aria-labelledby="speakers-dropdown">
+              <a class="dropdown-item" href="/talks">Talk List</a>
+              {% if site.visible.schedule %}
+              <a class="dropdown-item" href="#">Conference Schedule</a>
+              {% endif %}
+            </div>
+          </li>
+          {% endif %}
+          <li class="nav-item dropdown">
+            <a id="info-toggle" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Info</a>
+            <div class="nav-dropdown dropdown-menu" aria-labelledby="info-dropdown">
+              <a class="dropdown-item" href="{% link info/venue.md %}">Venue</a>
+              <a class="dropdown-item" href="{% link info/young-coders.md %}">Young Coders</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a tabindex="0" class="nav-link btn btn-outline-light" role="button" href="https://pytn2019.eventbrite.com/">Register</a>
+          </li>
+        </ul>
       </div>
-    </li>
-    {% if site.visible.sponsors %}
-    <li class="nav-item dropdown">
-      <a id="sponsors-dropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Sponsors</a>
-      <div class="nav-dropdown dropdown-menu" aria-labelledby="sponsors-dropdown">
-        <a class="dropdown-item" href="{% link sponsors/sponsors.html %}">Our Sponsors</a>
-        <a class="dropdown-item" href="{% link sponsors/prospectus.md %}">Sponsorship Prospectus</a>
-      </div>
-    </li>
-    {% endif %}
-    {% if site.visible.speaking %}
-    <li class="nav-item dropdown">
-      <a id="speaking-toggle" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Speaking</a>
-      <div class="nav-dropdown dropdown-menu" aria-labelledby="speaking-dropdown">
-        <a class="dropdown-item" href="{% link speaking/overview.md %}">Overview</a>
-        <a class="dropdown-item" href="{% link speaking/proposing-a-talk.md %}">Proposing a Talk</a>
-        <a class="dropdown-item" href="https://www.papercall.io/pytn2019">Submit Your Talk</a>
-      </div>
-    </li>
-    {% endif %}
-    {% if site.visible.speakers %}
-    <li class="nav-item dropdown">
-      <a id="speakers-toggle" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Schedule</a>
-      <div class="nav-dropdown dropdown-menu" aria-labelledby="speakers-dropdown">
-        <a class="dropdown-item" href="/talks">Talk List</a>
-        {% if site.visible.schedule %}
-        <a class="dropdown-item" href="#">Conference Schedule</a>
-        {% endif %}
-      </div>
-    </li>
-    {% endif %}
-    <li class="nav-item dropdown">
-      <a id="info-toggle" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Info</a>
-      <div class="nav-dropdown dropdown-menu" aria-labelledby="info-dropdown">
-        <a class="dropdown-item" href="{% link info/venue.md %}">Venue</a>
-        <a class="dropdown-item" href="{% link info/young-coders.md %}">Young Coders</a>
-      </div>
-    </li>
-    <li class="nav-item">
-      <a tabindex="0" class="nav-link btn btn-outline-light" role="button" href="https://pytn2019.eventbrite.com/">Register</a>
-    </li>
-  </ul>
+
+    </nav>
+  </div>
 </div>

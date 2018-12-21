@@ -76,6 +76,12 @@ h1, h2, h3, h4, h5, h6,
   color: #eee;
 }
 
+#navbar-menu-button {
+  border: 1px solid #eee;
+}
+
+.navbar-toggler-icon {
+background-image: url("data:image/svg+xml;charset=utf8,<svg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'><path stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/></svg>");}
 
 /*--[ Homepage ]-----*/
 .home .header {
@@ -94,8 +100,8 @@ h1, h2, h3, h4, h5, h6,
   background-position: center center;
   background-repeat: no-repeat;
   color: #eee;
-  height: 50vw;
   display: flex;
+  margin-bottom: 0;
 }
 
 .home .jumbotron-fluid h2 {
@@ -137,6 +143,88 @@ h1, h2, h3, h4, h5, h6,
   text-decoration: underline;
 }
 
+/* 992px and above */
+@media (min-width: 992px) {
+  .home .jumbotron-fluid {
+    height: 50vw;
+  }
+}
+
+/* tablet and above */
+@media (min-width: 768px) {
+  .home .header .navbar {
+    padding: 0;
+  }
+
+  .home .header .navbar .navbar-brand {
+    padding-bottom: 0;
+  }
+
+  .home .header .navbar .nav-link {
+    padding: .5rem 1rem;
+  }
+}
+
+/* tablet up to 1199px */
+@media (min-width: 768px) and (max-width: 1199px) {
+  .home-announcement {
+    padding: 0 0 0.5rem;
+  }
+}
+
+/* up to 1199px */
+@media (max-width: 1199px) {
+  .navbar .dropdown + .nav-item .btn {
+    margin-top: .5rem;
+  }
+}
+
+/* mobile */
+@media (max-width: 767px) {
+  h1, h2, h3, h4, h5, h6,
+  .h1, .h2, .h3, .h4, .h5, .h6{
+    margin: 1rem 0 1rem;
+  }
+
+  .header {
+    padding: 0.5rem;
+  }
+
+  .footer {
+    padding: 0.75rem 0.5rem;
+  }
+
+  .navbar {
+    padding: 0.5rem;
+  }
+
+  .title {
+    width: 200px;
+  }
+
+  .logo {
+     width: 200px;
+  }
+
+  .home .jumbotron-fluid {
+    font-size: 1.5rem;
+    font-weight: 250;
+    align-items: normal;
+  }
+
+  .home .jumbotron-fluid h2 {
+    font-size: 2.5rem;
+    font-weight: 500;
+  }
+
+  .home .jumbotron-fluid h3, .home .jumbotron-fluid h4 {
+    font-size: 1.5rem;
+  }
+
+  .home-sponsors {
+    margin-bottom: 1rem;
+  }
+}
 
 /*--[ About Page ]-----*/
 .about-hero img {
