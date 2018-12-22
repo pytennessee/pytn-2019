@@ -25,7 +25,6 @@ exclude:
 
 visible:
   sponsors: true
-  speaking: true
+  speaking: false
   speakers: true
   schedule: false
-
