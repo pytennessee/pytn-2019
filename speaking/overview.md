@@ -5,7 +5,7 @@ body_class: speaking
 permalink: speaking
 ---
 
-<div class="speaking-hero"> 
+<div class="speaking-hero">
   <img src="{{ site.baseurl }}/static/img/speaking.jpg" alt="A PyTN speaker teaching attendees about some standard library functions">
 </div>
 
@@ -102,7 +102,7 @@ Sexual language and imagery are not appropriate, and neither are language or ima
 ## Special Accommodations
 
 
-The [PyTennessee venue]({% link info/venue.md %}) is a school, so is reasonably well set up for speakers.
+The [PyTennessee venue]({% link about/venue.md %}) is a school, so is reasonably well set up for speakers.
 Each room has a podium in the front of the room with a project above the speaker's head.
 The seating in most rooms is stadium seating.
 Rooms are well set up for speakers to give their talks without amplification, but microphones will be provided in each room in case the speaker would like to use one.
@@ -114,5 +114,3 @@ The venue provides adapters for most computers:
 * VGA
 
 If you require an adapter that isn't in the above list, or you need any other special accommodations for your talk, please [let the organizers know](mailto:{{ site.data.event.organizers_email}}).
-
-

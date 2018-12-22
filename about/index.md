@@ -5,7 +5,7 @@ body_class: about
 permalink: about
 ---
 
-<div class="about-hero"> 
+<div class="about-hero">
   <img src="{{ site.baseurl }}/static/img/about-pytn.jpg" alt="Two PyTN 2018 attendees talking shop during while attending the Hallway Track.">
 </div>
 
@@ -33,11 +33,11 @@ TechFed provides financial stewardship, risk management and volunteer leadership
 The majority of our talks are Python-focused, but in addition to the Python-related topics, we also look for and encourage Python-adjacent and "professional skills" talks to provide a more complete experience.
 Developers are more than the single language they write in, and {{ site.data.event.short_name }} attempts to reflect that in our talk selection.
 
-  
+
 ## About Young Coders
 
 The Young Coders program is one of the aspects of {{ site.data.event.short_name }} that we're the most proud of.
-To learn more about it, please take a look at the [Young Coders]({% link info/young-coders.md %}) info page.
+To learn more about it, please take a look at the [Young Coders]({% link about/young-coders.md %}) info page.
 
 
 ## About the Staff
