@@ -86,7 +86,7 @@ background-image: url("data:image/svg+xml;charset=utf8,<svg viewBox='0 0 30 30' 
 /* mobile */
 @media (max-width: 767px) {
   .footer .footer-title {
-    padding-bottom: 0.25rem;
+    margin-bottom: 0.25rem;
   }
 }
 
@@ -263,8 +263,15 @@ background-image: url("data:image/svg+xml;charset=utf8,<svg viewBox='0 0 30 30' 
 
 /* mobile */
 @media (max-width: 767px) {
-    .sponsor-list-item {
-      padding-bottom: 1.5rem;
+    .sponsor-tier-name:first-of-type {
+      margin-top: 2.5rem;
+    }
+    .sponsor-list {
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+    }
+    .sponsor-list-item ~ .sponsor-list-item {
+      margin-top: 1.5rem;
     }
   }
 
