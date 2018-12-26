@@ -254,6 +254,12 @@ background-image: url("data:image/svg+xml;charset=utf8,<svg viewBox='0 0 30 30' 
   width: 100%;
 }
 
+/* mobile */
+@media (max-width: 767px) {
+    .sponsor-list-item {
+      padding-bottom: 1.5rem;
+    }
+  }
 
 /*--[ Prospectus Page ]-----*/
 .prospectus h3 {
