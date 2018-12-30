@@ -83,6 +83,13 @@ h1, h2, h3, h4, h5, h6,
 .navbar-toggler-icon {
 background-image: url("data:image/svg+xml;charset=utf8,<svg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'><path stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/></svg>");}
 
+/* mobile */
+@media (max-width: 767px) {
+  .footer .footer-title {
+    margin-bottom: 0.25rem;
+  }
+}
+
 /*--[ Homepage ]-----*/
 .home .header {
   margin-bottom: 0;
@@ -254,6 +261,19 @@ background-image: url("data:image/svg+xml;charset=utf8,<svg viewBox='0 0 30 30' 
   width: 100%;
 }
 
+/* mobile */
+@media (max-width: 767px) {
+    .sponsor-tier-name:first-of-type {
+      margin-top: 2.5rem;
+    }
+    .sponsor-list {
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+    }
+    .sponsor-list-item ~ .sponsor-list-item {
+      margin-top: 1.5rem;
+    }
+  }
 
 /*--[ Prospectus Page ]-----*/
 .prospectus h3 {
