@@ -294,7 +294,11 @@ Anyone with a ticket to the Young Coders program is welcome to return to the con
   </tr>
   <tr class="schedule-3pm">
     <td class="time">3:00pm</td>
-    <td class="keynote" colspan="4">Closing Keynote: A. Jesse Jiryu Davis</td>
+    <td class="keynote" colspan="4">
+      <span class="title">Closing Keynote</span> <br/>
+      <a href="/talks/choosing-the-adventure-route">Choosing The Adventurous Route: The Career Track For Non-Managers</a> <br/>
+      A. Jesse Jiryu Davis
+    </td>
   </tr>
   <tr class="schedule-4pm">
     <td class="time">4:00pm</td>

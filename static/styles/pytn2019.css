@@ -352,7 +352,6 @@ background-image: url("data:image/svg+xml;charset=utf8,<svg viewBox='0 0 30 30' 
 
 .schedule .breakfast,
 .schedule .lunch,
-.schedule .keynote,
 .schedule .lightning-talks,
 .schedule .announcements,
 .schedule .young-coders,
@@ -366,7 +365,14 @@ background-image: url("data:image/svg+xml;charset=utf8,<svg viewBox='0 0 30 30' 
 }
 
 .schedule .breakfast { background: #efe; }
-.schedule .keynote { background: #fee; }
 .schedule .lightning-talks { background: #eef; }
 .schedule .announcements,
 .schedule .young-coders { background: #ffe; }
+.schedule .keynote {
+  background: #fee;
+  padding: 1rem;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.schedule .keynote .title { font-weight: bold; }
