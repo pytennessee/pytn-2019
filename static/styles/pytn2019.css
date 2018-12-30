@@ -152,15 +152,15 @@ background-image: url("data:image/svg+xml;charset=utf8,<svg viewBox='0 0 30 30' 
 
 /* tablet and above */
 @media (min-width: 768px) {
-  .home .header .navbar {
+  .header .navbar {
     padding: 0;
   }
 
-  .home .header .navbar .navbar-brand {
+  .header .navbar .navbar-brand {
     padding-bottom: 0;
   }
 
-  .home .header .navbar .nav-link {
+  .header .navbar .nav-link {
     padding: .5rem 1rem;
   }
 }
