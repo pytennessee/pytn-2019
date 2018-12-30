@@ -215,7 +215,7 @@ background-image: url("data:image/svg+xml;charset=utf8,<svg viewBox='0 0 30 30' 
 
   .home .jumbotron-fluid {
     font-size: 1.5rem;
-    font-weight: 250;
+    font-weight: 300;
     align-items: normal;
   }
 
@@ -324,31 +324,6 @@ background-image: url("data:image/svg+xml;charset=utf8,<svg viewBox='0 0 30 30' 
 
 .talk-list .talk-abstract {
   margin-top: 1.5rem;
-}
-
-
-/*--[ Come on Down ]-----*/
-
-.come-on-down .container {
-  max-width: 700px;
-}
-
-.come-on-down h1 {
-  margin-bottom: 0;
-  font-weight: 900;
-}
-
-.come-on-down h2 {
-  margin-top: .5rem;
-}
-
-.come-on-down h3 {
-  margin: 2rem 0 .3rem 0;
-  font-size: 1.3rem;
-}
-
-.come-on-down p {
-  text-align: justify;
 }
 
 
