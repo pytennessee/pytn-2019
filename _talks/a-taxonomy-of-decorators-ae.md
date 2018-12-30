@@ -1,5 +1,5 @@
 ---
-title:  A Taxonomy of Decorators' A-E
+title:  A Taxonomy of Decorators A-E
 layout: talk
 body_class: talk
 permalink: talks/-a-taxonomy-of-decorators-ae

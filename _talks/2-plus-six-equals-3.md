@@ -2,7 +2,7 @@
 title: 2 + six = 3 - or how to migrate your SaaS to Python 3 without downtime!
 layout: talk
 body_class: talk
-permalink: talks/2--six--3--or-how-to-migrate-your-saas-to-python-3-without-downtime
+permalink: talks/2-plus-six-equals-3
 about: Stratasan developer and wayward Nashvillian, Anthony Fox, was born at a very young age and his hobbies include Breakfast, Lunch, and Dinner. In addition to that, he co-organizes the OCPython meetup in Orange County, California and likes to speak on various topics relating to Python and programming in general. Having recently migrated his company's application from Python 2 to Python 3 without downtime, he's here to share the good word that it's possible for others to do the same!
 abstract: Time is flying by and Python 2 will drop support on January 1st, 2020. But upgrading to Python 3 doesn't have to be stressful, it turns out that there's a beaten path that will lead you and your application into Python 3-land without downtime!
 type: talk

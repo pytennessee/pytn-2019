@@ -307,7 +307,7 @@ background-image: url("data:image/svg+xml;charset=utf8,<svg viewBox='0 0 30 30' 
 }
 
 
-/*--[ Come on Down ] */
+/*--[ Come on Down ]-----*/
 
 .come-on-down .container {
   max-width: 700px;
@@ -330,3 +330,43 @@ background-image: url("data:image/svg+xml;charset=utf8,<svg viewBox='0 0 30 30' 
 .come-on-down p {
   text-align: justify;
 }
+
+
+/*--[ Schedule ]-----*/
+.schedule table {
+  border: 1px solid #666;
+  border-collapse: collapse;
+}
+
+.schedule table td,
+.schedule table th {
+  border: 1px solid #666;
+  padding: 0.5rem;
+}
+
+.schedule table th {
+  background: #6a5b7f;
+  color: #fff;
+  text-align: center
+}
+
+.schedule .breakfast,
+.schedule .lunch,
+.schedule .keynote,
+.schedule .lightning-talks,
+.schedule .announcements,
+.schedule .young-coders,
+.schedule .open,
+.schedule .break {
+  background: #eee;
+  font-weight: bold;
+  text-align: center;
+  vertical-align: middle;
+  padding: 1rem;
+}
+
+.schedule .breakfast { background: #efe; }
+.schedule .keynote { background: #fee; }
+.schedule .lightning-talks { background: #eef; }
+.schedule .announcements,
+.schedule .young-coders { background: #ffe; }
