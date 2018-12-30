@@ -202,14 +202,11 @@ Anyone with a ticket to the Young Coders program is welcome to return to the con
       <a href="/talks/making-pytest-your-batman">Making Pytest Your Batman</a> <br/>
       Josh Kelley
     </td>
-    <td class="room-300" rowspan="3">
-      <a href="/talks/a-handson-introduction-to-natural-language-processing-in-python">A hands-on introduction to Natural Language Processing in Python</a> <br/>
-      Grishma Jena
-    </td>
+    <td class="room-300 open">Open</td>
   </tr>
   <tr class="schedule-945am">
     <td class="time">9:45am</td>
-    <td class="break" colspan="3">Break</td>
+    <td class="break" colspan="4">Break</td>
   </tr>
   <tr class="schedule-10am">
     <td class="time">10:00am</td>
@@ -224,6 +221,10 @@ Anyone with a ticket to the Young Coders program is welcome to return to the con
     <td class="room-200">
       <a href="/talks/instrumenting-python-for-production">Instrumenting Python for Production</a> <br/>
       Brian Pitts
+    </td>
+    <td class="room-300" rowspan="3">
+      <a href="/talks/a-handson-introduction-to-natural-language-processing-in-python">A hands-on introduction to Natural Language Processing in Python</a> <br/>
+      Grishma Jena
     </td>
   </tr>
   <tr class="schedule-11am">
@@ -240,11 +241,10 @@ Anyone with a ticket to the Young Coders program is welcome to return to the con
       <a href="/talks/cloud-made-simple-with-serverless-python">Cloud Made Simple with Serverless Python</a> <br/>
       Belinda Vennam
     </td>
-    <td class="room-300 open">Open</td>
   </tr>
   <tr class="schedule-1145pm">
     <td class="time">11:45am</td>
-    <td class="break" colspan="4">Break</td>
+    <td class="break" colspan="3">Break</td>
   </tr>
   <tr class="schedule-12pm">
     <td class="time">12:00pm</td>
