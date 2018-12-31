@@ -62,7 +62,7 @@ _Includes everything in a Nudge Nudgers sponsorship, plus:_
 * Twitter mentions leading up to the event
 
 
-#### Ron Obvious ($5000, Limited to 1)
+#### ~~Ron Obvious ($5000, Limited to 1)~~ -- SOLD
 
 _Includes everything in the Lumberjacks level, plus:_
 
@@ -73,7 +73,7 @@ _Includes everything in the Lumberjacks level, plus:_
 * 1 additional T-shirt and ticket (5 t-shirts and 5 tickets total)
 
 
-#### Ministry of Silly Walks ($8000, Limited to 1)
+#### ~~Ministry of Silly Walks ($8000, Limited to 1)~~ -- SOLD
 
 _Includes everything in the Lumberjacks level, plus:_
 
@@ -117,7 +117,7 @@ Every attendee gets a conference badge, and if you choose to sponsor the badges,
 * Each Lunch sponsorship will sponsor a single meal.
 
 
-#### Young Coders ($3000, Limited to 1)
+#### ~~Young Coders ($3000, Limited to 1)~~ -- SOLD
 
 * As the exclusive sponsor of our Young Coders program, your generous sponsorship will help buy computers for our Young Coders to use during the program and take home with them when the program is complete.
 * “Presented by” credit for the Young Coders program in all outbound marketing
