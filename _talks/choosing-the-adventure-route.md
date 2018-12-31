@@ -4,7 +4,7 @@ layout: talk
 body_class: talk
 permalink: talks/choosing-the-adventure-route
 about: Jesse is a Staff Engineer at MongoDB in New York City. He's the author of Motor, an async MongoDB driver for Tornado and asyncio, and a contributor to Python, Tornado, asyncio, MongoDB, and the MongoDB Drivers for C, C++, and Python. He and Guido van Rossum are coauthors of "A Web Crawler With asyncio Coroutines", a chapter in the "500 Lines or Less" book in the Architecture of Open Source Applications series. Jesse lives in Manhattan with his partner Jennifer Armstrong, and their Chinese dwarf hamsters Ada Lovelace and Grace Hopper. 
-abstract: What are you supposed to do if you've been a developer for a while, and have no interesting in hopping on the management track? 
+abstract: If you’re committed to a lifetime of coding, how do you make the most of it? 
 type: keynote
 expected_length: 30min
 intended_audience: All
