@@ -12,8 +12,12 @@ the beginning, and we're excited to return to the NSL again this year!
 
 {{ site.data.event.venue.description }}
 
+<div class="flex-container" markdown="1">
+
 - ### {{ site.data.event.venue.name }}
 {% for line in site.data.event.venue.address %}- {{ line }}
 {% endfor %}- <{{ site.data.event.venue.url }}>
 
 {{ site.data.event.venue.map }}
+
+</div>

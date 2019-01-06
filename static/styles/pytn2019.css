@@ -288,6 +288,17 @@ background-image: url("data:image/svg+xml;charset=utf8,<svg viewBox='0 0 30 30' 
   padding-left: 0;
 }
 
+.venue .flex-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 3rem;
+}
+
+.venue h3 {
+  margin-top: 0;
+}
+
 
 /*--[ Young Coders Page ]-----*/
 .young-coders-hero img {
@@ -384,4 +395,15 @@ background-image: url("data:image/svg+xml;charset=utf8,<svg viewBox='0 0 30 30' 
   border: 1px solid #666;
   width: 100%;
   margin-bottom: 1.5rem;
+}
+
+.game-night .flex-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 3rem;
+}
+
+.game-night h3 {
+  margin-top: 0;
 }

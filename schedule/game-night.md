@@ -21,8 +21,13 @@ So once you've had your fill of Python for the day, come downtown and enjoy some
 
 _Please note this is a ticketed event and only 100 tickets are made available._
 
+
+<div class="flex-container" markdown="1">
+
 - ### {{ site.data.event.game_night.name }}
 {% for line in site.data.event.game_night.address %}- {{ line }}
 {% endfor %}- {{ site.data.event.game_night.time }}
 
 {{ site.data.event.game_night.map }}
+
+</div>
