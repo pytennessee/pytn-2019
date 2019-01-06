@@ -372,3 +372,10 @@ background-image: url("data:image/svg+xml;charset=utf8,<svg viewBox='0 0 30 30' 
 }
 
 .schedule .keynote .title { font-weight: bold; }
+
+
+/*--[ Game Night Page ]-----*/
+.game-night ul {
+  list-style-type: none;
+  padding-left: 0;
+}

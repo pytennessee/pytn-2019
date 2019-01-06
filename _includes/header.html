@@ -49,9 +49,9 @@
           <li class="nav-item dropdown">
             <a id="speakers-toggle" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Schedule</a>
             <div class="nav-dropdown dropdown-menu" aria-labelledby="speakers-dropdown">
-              <a class="dropdown-item" href="/talks">Talk List</a>
+              <a class="dropdown-item" href="{% link schedule/talks.md %}">Talk List</a>
               {% if site.visible.schedule %}
-              <a class="dropdown-item" href="{% link talks/schedule.md %}">Conference Schedule</a>
+              <a class="dropdown-item" href="{% link schedule/schedule.md %}">Conference Schedule</a>
               {% endif %}
             </div>
           </li>

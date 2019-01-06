@@ -162,6 +162,15 @@ Anyone with a ticket to the Young Coders program is welcome to return to the con
 </tbody>
 </table>
 
+## Saturday Evening
+
+[]PyTN Game Night]({% link schedule/game-night.md %}) is back again this year!
+Come join us from 6-9pm at the Campaign Monitor Bistro for a night of board games and fun with other PyTN attendees!
+
+For more information about PyTN Game Night, please checkout [our Game Night information page]({% link schedule/game-night.md %}).
+
+PyTN Game Night is sponsored by [Campaign Monitor](https://www.campaignmonitor.com/), so a huge thank you to them for their generous support of PyTN 2019! 
+
 
 ## Sunday
 
