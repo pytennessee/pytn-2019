@@ -379,3 +379,9 @@ background-image: url("data:image/svg+xml;charset=utf8,<svg viewBox='0 0 30 30' 
   list-style-type: none;
   padding-left: 0;
 }
+
+.game-night-hero img {
+  border: 1px solid #666;
+  width: 100%;
+  margin-bottom: 1.5rem;
+}
