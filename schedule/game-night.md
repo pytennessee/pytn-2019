@@ -19,7 +19,7 @@ So if you're looking for something to do with other PyTN attendees on Saturday e
 
 So once you've had your fill of Python for the day, come downtown and enjoy some table top games, then head out to wherever the night takes you!
 
-Please note this is a ticketed event and only 100 tickets are made available.
+_Please note this is a ticketed event and only 100 tickets are made available._
 
 - ### {{ site.data.event.game_night.name }}
 {% for line in site.data.event.game_night.address %}- {{ line }}
