@@ -44,3 +44,9 @@ To learn more about it, please take a look at the [Young Coders]({% link about/y
 
 If you need to contact the PyTennessee 2019 organizers, you can do so by sending an email to [organizers@pytennessee.org](mailto:organizers@pytennessee.org).
 If you'd like to know more about the organizers, please visit the [Staff Information]({% link about/staff-information.md %}) page.
+
+
+## Refund Policy
+
+Refunds will be handled on a case-by-case basis until one month before the conference (January 9th, 2019), at which point refunds will no longer be issued.
+If you can no longer use your ticket and would like to transfer it, please get in touch with the organizers and we can try to help you find a buyer for your ticket.
