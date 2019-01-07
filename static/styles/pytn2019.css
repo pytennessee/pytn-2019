@@ -127,6 +127,24 @@ background-image: url("data:image/svg+xml;charset=utf8,<svg viewBox='0 0 30 30' 
   font-style: italic;
 }
 
+.home .presented-by {
+  color: #fff;
+  display: block;
+  font-size: 1.25rem;
+  font-weight: normal;
+  font-style: italic;
+}
+
+.home .presented-by img {
+  display: block;
+  margin: 1rem auto;
+  width: 100px;
+}
+
+.home .presented-by a {
+  text-decoration: underline;
+}
+
 .hero-register-button {
   margin: 3rem 0;
 }
