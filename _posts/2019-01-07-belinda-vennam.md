@@ -5,7 +5,7 @@ published: true
 categories: [blog, tech, conference]
 tags: [python, tech, conference, tennessee, nashville]
 ---
-Belinda Vennam is a PyTN conference speaker presenting a talk on [Taming Styles of Python](https://www.pytennessee.org/talks/taming-styles-of-python-programming "Taming Styles of Python") at PyTN 2019. We are thrilled to have Belinda as a speaker, and share the enthusiasm for Python and PyTN 2019 below!
+Belinda Vennam is a PyTN conference speaker presenting a talk on [Cloud Made Simple with Serverless Python](https://www.pytennessee.org/talks/cloud-made-simple-with-serverless-python "Cloud Made Simple with Serverless Python") at PyTN 2019. We are thrilled to have Belinda as a speaker, and share the enthusiasm for Python and PyTN 2019 below!
 
 ![Belinda Vennam](/static/img/2019-speakers/belinda_vennam.png)
 
