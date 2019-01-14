@@ -38,7 +38,11 @@ Anyone with a ticket to the Young Coders program is welcome to return to the con
   </tr>
   <tr class="schedule-9am">
     <td class="time">9:00am</td>
-    <td class="aud keynote" colspan="4">Opening Keynote: Jacqueline Kazil</td>
+    <td class="aud keynote" colspan="4">
+      <span class="title">Opening Keynote</span> <br/>
+      <a href="/talks/running-from-zombies-and-market-behaviors">How running from zombies is the same as market behaviors</a> <br/>
+      Jacqueline Kazil
+    </td>
   </tr>
   <tr class="schedule-10am">
     <td class="time">10:00am</td>
