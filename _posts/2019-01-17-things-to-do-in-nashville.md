@@ -10,9 +10,9 @@ As a start to beginning your Nashville experience, let us suggest just a couple 
 ### Unique Museums and Monuments:
 * The Parthenon: A full scale replica of the Parthenon in Greece
 * The Frist Art Museum:  Van Gogh, Monet, Degas, and Their Times: The Mellon Collection of French Art will be the main exhibit the weekend of our conference.
-* Tootsie's and Robert's Western World: Historic country honky tonks: Tootsie's & Robert's. 
+* Tootsie's and Robert's Western World: Historic country honky tonks 
 * Country Music Hall of Fame: A museum dedicated to the history of country music
-* Lane Motor Museum: The largest European collection of cars and motorcycles in the United States.
+* Lane Motor Museum: The largest collection of European cars and motorcycles in the United States.
 
 ### Beer, Cider, and Cocktails:
 * Corsair Distillery: A local Nashville distiller of fine spirits
@@ -35,3 +35,5 @@ As a start to beginning your Nashville experience, let us suggest just a couple 
 * High Garden: Rated one of the best tea houses in the country
 * The Cupcake Collection: A Germantown instution for almost homemade, classic Southern cupcakes
 * Dozen Bakery: A small bakeshop in the Wedgewood Houston area of town with French classic pastries
+
+Have more Nashville greats we need to add to our list? Did you visit one of our suggestions and want to tell us about it? Tweet us @PyTennessee!
