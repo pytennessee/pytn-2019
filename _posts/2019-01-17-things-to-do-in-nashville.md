@@ -36,4 +36,4 @@ As a start to beginning your Nashville experience, let us suggest just a couple 
 * The Cupcake Collection: A Germantown instution for almost homemade, classic Southern cupcakes
 * Dozen Bakery: A small bakeshop in the Wedgewood Houston area of town with French classic pastries
 
-Have more Nashville greats we need to add to our list? Did you visit one of our suggestions and want to tell us about it? Tweet us @PyTennessee!
+Have more Nashville greats we need to add to our list? Need another recommendation for a different category that we didn't mention like where to find Nashville unicorns? Did you visit one of our suggestions and want to tell us about it? Tweet us [@PyTennessee](https://www.twitter.com/PyTennessee "PyTennessee")!
