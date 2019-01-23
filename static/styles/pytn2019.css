@@ -301,11 +301,6 @@ background-image: url("data:image/svg+xml;charset=utf8,<svg viewBox='0 0 30 30' 
 
 
 /*--[ Venue Page ]-----*/
-.venue ul {
-  list-style-type: none;
-  padding-left: 0;
-}
-
 .venue .flex-container {
   display: flex;
   justify-content: space-between;
@@ -313,8 +308,13 @@ background-image: url("data:image/svg+xml;charset=utf8,<svg viewBox='0 0 30 30' 
   margin-top: 3rem;
 }
 
-.venue h3 {
+.venue .venue-info h3 {
   margin-top: 0;
+}
+
+.venue .venue-info ul {
+  list-style-type: none;
+  padding-left: 0;
 }
 
 
@@ -404,11 +404,6 @@ background-image: url("data:image/svg+xml;charset=utf8,<svg viewBox='0 0 30 30' 
 
 
 /*--[ Game Night Page ]-----*/
-.game-night ul {
-  list-style-type: none;
-  padding-left: 0;
-}
-
 .game-night-hero img {
   border: 1px solid #666;
   width: 100%;
@@ -422,6 +417,11 @@ background-image: url("data:image/svg+xml;charset=utf8,<svg viewBox='0 0 30 30' 
   margin-top: 3rem;
 }
 
-.game-night h3 {
+.game-night .venue-info h3 {
   margin-top: 0;
+}
+
+.game-night .venue-info ul {
+  list-style-type: none;
+  padding-left: 0;
 }
