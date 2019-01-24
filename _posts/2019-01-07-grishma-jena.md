@@ -7,7 +7,7 @@ tags: [python, tech, conference, tennessee, nashville]
 ---
 Grishma Jena is a PyTN conference speaker presenting not just one, but *two* tutorials: [A hands-on introduction to Natural Language Processing in Python](https://www.pytennessee.org/talks/a-handson-introduction-to-natural-language-processing-in-python "A hands-on introduction to Natural Language Processing in Python") and [Intro to Python](https://www.pytennessee.org/talks/intro-to-python "Intro to Python"). We are thrilled to have Grishma as a speaker, and share the enthusiasm for Python and PyTN 2019 below!
 
-![Grishma Jena](/static/img/2019-speakers/grishma_jena.jpg)
+![Grishma Jena](/static/img/speakers/grishma_jena.jpg)
 
 **What have you been working on lately that you're excited about?**
 

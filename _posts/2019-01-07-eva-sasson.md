@@ -7,7 +7,7 @@ tags: [python, tech, conference, tennessee, nashville]
 ---
 Eva Sasson is a PyTN conference speaker presenting a talk on [Identifying influencers via Slack Messages in Python using Network Analysis and NLP](https://www.pytennessee.org/talks/identifying-influencers-via-slack-messages-in-python-using-network-analysis-and-nlp "Identifying influencers via Slack Messages in Python using Network Analysis and NLP") at PyTN 2019. We are thrilled to have Eva as a speaker, and share the enthusiasm for Python and PyTN 2019 below!
 
-![Eva Sasson](/static/img/2019-speakers/eva_sasson.jpg)
+![Eva Sasson](/static/img/speakers/eva_sasson.jpg)
 
 **What have you been working on lately that you're excited about? (It can totally be non-tech related!)**
 

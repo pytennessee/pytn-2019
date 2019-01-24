@@ -7,7 +7,7 @@ tags: [python, tech, conference, tennessee, nashville]
 ---
 Hayley Denbraver is a PyTN conference speaker presenting a talk on [It is Python Turtles All the Way Down: Recursion, Fractals, and the Python Turtle Module](https://www.pytennessee.org/talks/it-is-python-turtles-all-the-way-down-recursion-fractals-and-the-python-turtle-module "It is Python Turtles All the Way Down: Recursion, Fractals, and the Python Turtle Module") at PyTN 2019. We are thrilled to have Hayley as a speaker, and share the enthusiasm for Python and PyTN 2019 below!
 
-![Hayley Denbraver](/static/img/2019-speakers/hayley_denbraver.jpg)
+![Hayley Denbraver](/static/img/speakers/hayley_denbraver.jpg)
 
 **What have you been working on lately that you're excited about? (It can totally be non-tech related!)**
 

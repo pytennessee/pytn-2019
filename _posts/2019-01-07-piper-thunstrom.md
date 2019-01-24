@@ -7,7 +7,7 @@ tags: [python, tech, conference, tennessee, nashville]
 ---
 Piper Thunstrom is a PyTN conference speaker presenting a talk on [Making Games](https://www.pytennessee.org/talks/making-games "Making Games") at PyTN 2019. We are thrilled to have Piper as a speaker, and share the enthusiasm for Python and PyTN 2019 below!
 
-![Piper Thunstrom](/static/img/2019-speakers/piper_thunstrom.jpg)
+![Piper Thunstrom](/static/img/speakers/piper_thunstrom.jpg)
 
 **What have you been working on lately that you're excited about? (It can totally be non-tech related!)**
 

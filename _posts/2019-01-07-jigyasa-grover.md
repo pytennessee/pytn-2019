@@ -7,7 +7,7 @@ tags: [python, tech, conference, tennessee, nashville]
 ---
 Jigyasa Grover is a PyTN conference speaker presenting a talk on [Taming Styles of Python](https://www.pytennessee.org/talks/taming-styles-of-python-programming "Taming Styles of Python") at PyTN 2019. We are thrilled to have Jigyasa as a speaker, and share the enthusiasm for Python and PyTN 2019 below!
 
-![Jigyasa Grover](/static/img/2019-speakers/jigyasa_grover.jpg)
+![Jigyasa Grover](/static/img/speakers/jigyasa_grover.jpg)
 
 **What have you been working on lately that you're excited about? (It can totally be non-tech related!)**
 

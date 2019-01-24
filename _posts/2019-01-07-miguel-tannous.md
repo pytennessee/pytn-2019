@@ -7,7 +7,7 @@ tags: [python, tech, conference, tennessee, nashville]
 ---
 Miguel Tannous is a PyTN conference speaker presenting a talk on [Browser Automation with Python](https://www.pytennessee.org/talks/browser-automation-with-python "Browser Automation with Python") at PyTN 2019. We are thrilled to have Miguel as a speaker, and share the enthusiasm for Python and PyTN 2019 below!
 
-![Miguel Tannous](/static/img/2019-speakers/miguel_tannous.jpeg)
+![Miguel Tannous](/static/img/speakers/miguel_tannous.jpeg)
 
 **What have you been working on lately that you're excited about?**
 
