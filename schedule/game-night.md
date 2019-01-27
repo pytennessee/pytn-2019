@@ -23,13 +23,11 @@ Use one of these games to start you own or add to your already-growing collectio
 
 * Scarabya
 * Junk Orbit
-* Truck Off
 * Topiary
 * Star Cartel
 * Fireball Island The Curse of Vul Kar
 * King Of Tokyo 2nd Edition
 * Sagrada
-* Nessos
 * Space Base
 * One Night Ultimate Werewolf
 
