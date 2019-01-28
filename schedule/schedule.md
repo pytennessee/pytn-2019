@@ -34,7 +34,7 @@ Anyone with a ticket to the Young Coders program is welcome to return to the con
 <tbody>
   <tr class="schedule-8am">
     <td class="time">8:00am</td>
-    <td class="all-rooms breakfast" colspan="4">Registration/Breakfast</td>
+    <td class="all-rooms breakfast" colspan="4">Registration/<a href="/menu#breakfast">Breakfast</a></td>
   </tr>
   <tr class="schedule-9am">
     <td class="time">9:00am</td>
@@ -88,7 +88,7 @@ Anyone with a ticket to the Young Coders program is welcome to return to the con
   </tr>
   <tr class="schedule-12pm">
     <td class="time">12:00pm</td>
-    <td class="all-rooms lunch" colspan="4">Lunch</td>
+    <td class="all-rooms lunch" colspan="4"><a href="/menu#lunch">Lunch</a></td>
   </tr>
   <tr class="schedule-1pm">
     <td class="time">1:00pm</td>
@@ -168,7 +168,7 @@ Anyone with a ticket to the Young Coders program is welcome to return to the con
 
 ## Saturday Evening
 
-[]PyTN Game Night]({% link schedule/game-night.md %}) is back again this year!
+[PyTN Game Night]({% link schedule/game-night.md %}) is back again this year!
 Come join us from 6-9pm at the Campaign Monitor Bistro for a night of board games and fun with other PyTN attendees!
 
 For more information about PyTN Game Night, please checkout [our Game Night information page]({% link schedule/game-night.md %}).
@@ -199,7 +199,7 @@ PyTN Game Night is sponsored by [Campaign Monitor](https://www.campaignmonitor.c
 <tbody>
   <tr class="schedule-8am">
     <td class="time">8:00am</td>
-    <td class="all-rooms breakfast" colspan="4">Breakfast</td>
+    <td class="all-rooms breakfast" colspan="4"><a href="/menu#breakfast-1">Breakfast</a></td>
   </tr>
   <tr class="schedule-9am">
     <td class="time">9:00am</td>
@@ -261,7 +261,7 @@ PyTN Game Night is sponsored by [Campaign Monitor](https://www.campaignmonitor.c
   </tr>
   <tr class="schedule-12pm">
     <td class="time">12:00pm</td>
-    <td class="all-rooms lunch" colspan="4">Lunch</td>
+    <td class="all-rooms lunch" colspan="4"><a href="/menu#lunch-1">Lunch</a></td>
   </tr>
   <tr class="schedule-1pm">
     <td class="time">1:00pm</td>
