@@ -54,7 +54,7 @@ In addition, all sponsors and vendors are subject to this Code of Conduct as wel
 
 ## Contact Information
 
-If you believe that someone is violating the code of conduct during a PyCon event, or have any other concerns, please contact a member of the event staff immediately:
+If you believe that someone is violating the code of conduct during {{ site.data.event.short_name }}, or have any other concerns, please contact a member of the event staff immediately:
 
 * (615) 873-0382
 * incidents@pytennessee.org
