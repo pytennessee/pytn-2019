@@ -5,7 +5,10 @@ published: true
 categories: [blog, tech, conference]
 tags: [python, tech, conference, tennessee, nashville]
 ---
-Deborah Hanus and Sebastian Hanus are PyTN conference co-speakers presenting a talk on [To comment or not to comment? Conflicting attitudes towards commenting and beginner pain.](https://www.pytennessee.org/talks/to-comment-or-not-to-comment "To comment or not to comment? Conflicting attitudes towards commenting and beginner pain.") at PyTN 2019. We are thrilled to have them as a speakers, and share their enthusiasm for Python and PyTN 2019 below!
+Deborah Hanus and Sebastian Hanus are PyTN conference co-speakers presenting a talk on [Getting started with Deep Learning: Using Keras & Numpy to detect voice disorders](https://www.pytennessee.org/talks/getting-started-with-deep-learning-using-keras--numpy-to-detect-voice-disorders "Getting started with Deep Learning: Using Keras & Numpy to detect voice disorders") at PyTN 2019. We are thrilled to have them as a speakers, and share their enthusiasm for Python and PyTN 2019 below!
+
+![Deborah and Sebastian Hanus](/static/img/speakers/hanus.jpg)
+
 
 #### What have you been working on lately that you're excited about? (It can totally be non-tech related!)
 
