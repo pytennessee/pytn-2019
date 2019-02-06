@@ -13,4 +13,11 @@ speakers: Brian Pitts
 
 ## Talk Description
 
-I'll cover approaches to logging, metrics, and tracing that are applicable to any python application that handles user requests or interfaces with other systems.
+I’ll cover approaches to instrumentation that are applicable to any python application that handles user requests or interfaces with other systems. Come and learn
+
+1. What is instrumentation, and why should I care?
+1. What tools should I use?
+1. Where do I get started in my codebase?
+1. How should I name things?
+1. Now how do I use this?
+
