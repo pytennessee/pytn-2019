@@ -36,12 +36,20 @@ Anyone with a ticket to the Young Coders program is welcome to return to the con
     <td class="time">8:00am</td>
     <td class="all-rooms breakfast" colspan="4">Registration/<a href="/menu#breakfast">Breakfast</a></td>
   </tr>
+  <tr class="schedule-845am">
+    <td class="time">8:45am</td>
+    <td class="aud announcements" colspan="4">
+      Welcome/Announcements
+      <span class="room-info">(Auditorium Only)</span>
+    </td>
+  </tr>
   <tr class="schedule-9am">
     <td class="time">9:00am</td>
     <td class="aud keynote" colspan="4">
       <span class="title">Opening Keynote</span> <br/>
       <a href="/talks/running-from-zombies-and-market-behaviors">How running from zombies is the same as market behaviors</a> <br/>
       Jacqueline Kazil
+      <span class="room-info">(Auditorium Only)</span>
     </td>
   </tr>
   <tr class="schedule-10am">
@@ -157,11 +165,17 @@ Anyone with a ticket to the Young Coders program is welcome to return to the con
   </tr>
   <tr class="schedule-4pm">
     <td class="time">4:00pm</td>
-    <td class="aud lightning-talks" colspan="4">Lightning Talks</td>
+    <td class="aud lightning-talks" colspan="4">
+      Lightning Talks
+      <span class="room-info">(Auditorium Only)</span>
+    </td>
   </tr>
   <tr class="schedule-445pm">
     <td class="time">4:45pm</td>
-    <td class="aud announcements" colspan="4">Announcements</td>
+    <td class="aud announcements" colspan="4">
+      Announcements
+      <span class="room-info">(Auditorium Only)</span>
+    </td>
   </tr>
 </tbody>
 </table>
@@ -311,11 +325,15 @@ PyTN Game Night is sponsored by [Campaign Monitor](https://www.campaignmonitor.c
       <span class="title">Closing Keynote</span> <br/>
       <a href="/talks/choosing-the-adventure-route">Choosing The Adventurous Route: The Career Track For Non-Managers</a> <br/>
       A. Jesse Jiryu Davis
+      <span class="room-info">(Auditorium Only)</span>
     </td>
   </tr>
   <tr class="schedule-4pm">
     <td class="time">4:00pm</td>
-    <td class="aud announcements" colspan="4">Raffle / Thank you / Goodbye</td>
+    <td class="aud announcements" colspan="4">
+      Raffle / Thank you / Goodbye
+      <span class="room-info">(Auditorium Only)</span>
+    </td>
   </tr>
 </tbody>
 </table>

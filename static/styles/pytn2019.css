@@ -401,6 +401,7 @@ background-image: url("data:image/svg+xml;charset=utf8,<svg viewBox='0 0 30 30' 
 }
 
 .schedule .keynote .title { font-weight: bold; }
+.schedule .room-info { font-weight: normal; display: block; }
 
 
 /*--[ Game Night Page ]-----*/
