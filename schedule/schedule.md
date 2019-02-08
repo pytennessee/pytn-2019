@@ -238,8 +238,8 @@ PyTN Game Night is sponsored by [Campaign Monitor](https://www.campaignmonitor.c
   <tr class="schedule-10am">
     <td class="time">10:00am</td>
     <td class="aud">
-      <a href="/talks/it-is-python-turtles-all-the-way-down-recursion-fractals-and-the-python-turtle-module">It is Python Turtles All the Way Down: Recursion, Fractals, and the Python Turtle Module</a> <br/>
-      Hayley Denbraver
+      <a href="talks/blame-in-search-of-root-causes-of-software-failures">Blame: In search of the root causes of software failures</a> <br/>
+      Jason Orendorff
     </td>
     <td class="room-100">
       <a href="/talks/to-comment-or-not-to-comment">To comment or not to comment? Conflicting attitudes towards commenting and beginner pain</a> <br/>
