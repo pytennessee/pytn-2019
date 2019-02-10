@@ -13,34 +13,6 @@ speakers: Veronica Hanus
 
 ## Talk Description
 
-### Intro
+Every programmer has asked themselves at least once “how many comments are too many?” To the newest programmers, comments seem magical - a way of talking to yourself (or someone else!) without giving instructions to the computer. But commenting is a form of documentation/communication and engages the same vulnerability as later challenges (eg. pair programming & code review) and is likely to pique the insecurity of many programmers (especially the copy-and-paste or tutorial-level programmer)!
 
-* Python + web, forever-learner & member of several “new programmer” communities, workshop giver
-* Interested in how commonly “how many comments are too many” is asked by newer programers & started to think about how “dry” code might not be the best for learning
-
-
-### Statement of problem
-
-* New learners quickly become interested in “best practices”. They want to write the best code they can, as quickly as they can. Without the experience to know the “why” for our “rules,” they can fall into the great toxic pitfalls of newbie programming: “just tell me how to do it” & decision paralysis.
-* Questions about commenting are often asked in a way that invites a binary answer: “how many comments are too much?” suggests that there might be a set “too much”. While most experienced programmers are happy to discuss the nuance of “when to comment”, a number of inexperienced programmers have heard “good code is dry” and being exposed to this binary can cause a lot of anxiety. 
-
-
-### The nuanced answer
-
-* Examples of commenting styles & when each is helpful
-* All this is colored by my programming journey: Line-by-line tutorials (eg. Codecademy), Broadly outlined projects (eg. Boston Python Women’s Workshop), Lots of learning motivated by but unconnected to projects (eg. best practices: modular code, ...), Individual (unguided) projects (eg. HTML/CSS website), Contributing to other’s work
-
-
-### Commenting styles
-
-* Comments to plan
-* “Comment-driven development”
-* Line-by-line comments 
-* Function-level comments (Docstrings)
-* In-line clarification (variables, etc.)
-
-### What can we do?
-
-* Validate the learning process when discussing best practices
-* Empathy + supporting learning + empowering to consider many ideas >> being right
-* Discuss nuance of a person’s current practice and discuss alternatives / what may be coming next for them
+While most of us agree that some level of commenting is part of writing maintainable code, it’s very difficult for someone who has not yet worked in someone else’s codebase to know what is good practice and not. The answers that come back often conflict each other: Code should be DRY but well-placed comments save future devs. How can someone find the commenting style that is best for them as they learn, grow, & contribute? I did a survey of long-time industry folks, CS-majors, bootcamp grads, & hobby programmers, and I’ll be presenting my results (a few surprises here!) & sharing what we can do to address questions about comment-use in a way that encourages a growth mindset and empowers all of us.
