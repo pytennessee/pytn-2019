@@ -7,7 +7,7 @@ permalink: prospectus
 
 ## PyTennessee 2019 Sponsorship Prospectus
 
-_Thank you for your interest in {{ site.data.event.short_name }} 2019! Below you'll find some information that will hopefully help make your decision to support PyTN 2019 a littl easier._
+_Thank you for your interest in {{ site.data.event.short_name }} 2019! Below you'll find some information that will hopefully help make your decision to support PyTN 2019 a little easier._
 
 ### About PyTennessee 2019
 
